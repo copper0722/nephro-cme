@@ -3,10 +3,11 @@ import subprocess
 import requests
 import json
 import csv
+import time
 from datetime import datetime
 
 # --- Configuration ---
-VAULT_ROOT = os.path.expanduser("~/Library/CloudStorage/Dropbox/Vault")
+VAULT_ROOT = "/Users/copper/dropbox/Vault"
 ORPHAN_FILE = os.path.join(VAULT_ROOT, "_data/wiki_orphans.tsv")
 REPO_WIKI_DIR = os.path.join(VAULT_ROOT, "repos/nephrology-wiki/wiki")
 CANONICAL_WIKI_DIR = os.path.join(VAULT_ROOT, "proj/wiki")
@@ -18,7 +19,8 @@ LOCAL_LLM_URL = "http://localhost:8001/v1/chat/completions"
 MODEL_NAME = "dealignai/Gemma-4-31B-JANG_4M-CRACK"
 
 NEPHRO_KEYWORDS = ["kdigo", "daugirdas", "nolphgokal", "nephrology", "renal", "dialysis", "ckd", "aki"]
-BATCH_LIMIT = 5 # Process only 5 orphans per run to avoid timeout/overload
+BATCH_LIMIT = 1 # Ultra-conservative: one per run to maximize stability
+MAX_INPUT_CHARS = 15000 # Prevent OOM by truncating extremely long raw files
 
 def log(message):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -31,6 +33,10 @@ def run_command(cmd, cwd=None):
     return result
 
 def call_local_llm(system_prompt, user_content):
+    # Truncate input to avoid OOM
+    if len(user_content) > MAX_INPUT_CHARS:
+        user_content = user_content[:MAX_INPUT_CHARS] + "... [Truncated for stability]"
+        
     payload = {
         "model": MODEL_NAME,
         "messages": [
@@ -41,7 +47,8 @@ def call_local_llm(system_prompt, user_content):
         "temperature": 0.3
     }
     try:
-        response = requests.post(LOCAL_LLM_URL, json=payload, timeout=300)
+        # Long timeout for 31B model
+        response = requests.post(LOCAL_LLM_URL, json=payload, timeout=600)
         response.raise_for_status()
         return response.json()['choices'][0]['message']['content']
     except Exception as e:
@@ -61,7 +68,6 @@ def process_orphans():
         reader = csv.DictReader(f, delimiter='\t')
         for row in reader:
             if processed_count >= BATCH_LIMIT:
-                log(f"Reached batch limit of {BATCH_LIMIT}. Stopping for this run.")
                 break
                 
             path = row['path']
@@ -97,19 +103,18 @@ def process_orphans():
                         dest_f.write(wiki_content)
                     log(f"Successfully wikified {title}")
                     processed_count += 1
+                    # Cool-down period
+                    time.sleep(10)
 
     if processed_count == 0:
         log("No new nephro orphans to process.")
 
 def sync_canonical_updates():
-    log("Syncing updates from canonical wiki...")
-    # Implementation: Sync based on modified time
-    # This is a placeholder for the sync logic.
+    # Placeholder
     pass
 
 def generate_mcqs():
-    log("Generating candidate MCQs...")
-    # implementation of MCQ generation would go here.
+    # Placeholder
     pass
 
 def git_push():
