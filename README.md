@@ -103,7 +103,10 @@ CC BY-NC-SA 4.0｜非醫療建議，僅供教育與研究用途。
 2. **Claude 3.5 Sonnet / Opus (The Workhorse & Editor-in-Chief)**
    - **職責**：EBM (實證醫學) 方法學把關、主力寫手與每週統籌。
    - **排程**：持續執行文獻讀取 (`/med-read` pipeline) 與每週發布審查。
-   - **工作邏輯**：確保每一條納入的醫學 Guideline 與 Paper 符合 EBM 框架（如 GRADE、NNT 等），並且過濾掉有方法學瑕疵的結論。
+   - **工作邏輯**：Wiki 的核心檔案主要由 Opus 透過 CC CLI (包含 Local 與 Cloud 端) 生成。兩者的分工為： 
+     - **Local AI**：專注於處理具有版權或 Paywall 的敏感資訊（如原版教科書、付費期刊），確保考題基礎的本地化處理。
+     - **Cloud CC**：主動訂閱與接收 RSS 最新醫學資訊，取得 Open Access (OA) 的文章並進行大規模的線上解析與 Wiki 寫入。
+   - 確保每一條納入的醫學 Guideline 與 Paper 符合 EBM 框架（如 GRADE、NNT 等），並且過濾掉有方法學瑕疵的結論。
 
 3. **OpenAI Codex / GPT-5.4 (The Adversarial Reviewer)**
    - **職責**：獨立的「對抗性審閱者 (Adversarial Reviewer)」。
