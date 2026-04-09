@@ -1,47 +1,36 @@
 ---
 type: wiki
 generated: 2026-04-09
+source: ref/articles/Akizawa2020/raw.md
 tags: [nephrology]
 author: gemma4
 ---
 
-# Wiki: Roxadustat in HD-CKD Anemia
+# HIF-PH Inhibitors (Roxadustat) in HD Anemia
 
-## Overview
-**Roxadustat** is an oral **HIF-PHI** (Hypoxia-Inducible Factor Prolyl Hydroxylase Inhibitor). It stimulates endogenous erythropoiesis by mimicking the cellular response to hypoxia, bypassing the need for exogenous ESAs.
+## Exam Logic
+**Roxadustat** represents a paradigm shift from exogenous erythropoiesis-stimulating agents (ESAs) to the activation of endogenous erythropoiesis via **HIF-PHI (Hypoxia-Inducible Factor Prolyl Hydroxylase Inhibitor)** mechanism.
 
-## Mechanism of Action (MoA)
-*   **Target:** Inhibits HIF prolyl hydroxylase enzymes.
-*   **Pathways:** 
-    *   ↑ Accumulation of **HIF-α** → dimerization with HIF-β.
-    *   ↑ Endogenous **Erythropoietin (EPO)** production.
-    *   ↑ **Transferrin receptor** expression & ↑ **Iron absorption**.
-*   **Clinical Advantage:** Potential for efficacy in inflammatory states where traditional ESAs (e.g., Darbepoetin alfa) show resistance.
+*   **Why it is correct:** In the context of HD patients, Roxadustat is **noninferior** to darbepoetin alfa (DA) for maintaining target hemoglobin (Hb) levels (10–12 g/dL).
+*   **Key Conceptual Advantage:** Unlike ESAs, HIF-PHIs may improve iron mobilization. They increase **transferrin** and **TIBC** and potentially decrease hepcidin, making them theoretically more effective in inflammatory states where ESA resistance is common.
+*   **Common Distractors:** 
+    *   *Superiority:* The study design was for **noninferiority**, not superiority.
+    *   *Iron Requirements:* While it improves iron utilization, it does not eliminate the need for iron monitoring (TSAT ≥ 20%, Ferritin ≥ 100 ng/mL).
+*   **Pitfalls:** Be aware of the **ophthalmologic safety signal**. While this trial showed no clinically meaningful change in retinal thickness, HIF-PHIs are closely monitored for retinal vascular events (e.g., hemorrhages) due to the role of HIF in angiogenesis.
 
-## Clinical Evidence: Phase 3 Trial (Akizawa et al., 2020)
-### Study Design
-*   **Population:** Japanese patients on stable Hemodialysis (HD) with CKD anemia.
-*   **Comparator:** **Darbepoetin alfa (DA)** (Active comparator).
-*   **Design:** Randomized, double-blind, double-dummy, non-inferiority trial.
-*   **Target Hb:** 10--12 g/dL.
+## Textbook References
+*   **Brenner and Rector's The Kidney:** Chapter on Anemia of Chronic Kidney Disease (Management of ESA-resistant anemia).
+*   **Daugirdas' Handbook of Dialysis:** Section on Anemia Management and Erythropoietin Therapy.
+*   **Nissenson's CKD:** Management of Mineral and Bone Disorder and Anemia.
 
-### Key Findings
-*   **Efficacy:** **Non-inferior** to DA. 
-    *   _18-24 difference: -0.02 g/dL (95% CI: -0.18 to 0.15).
-    *   Maintenance rate (10--12 g/dL): Roxadustat (95.2\%) vs. DA (91.3\%).
-*   **Iron Parameters:** 
-    *   Serum iron, ferritin, and TSAT remained stable.
-    *   ↑ Transferrin and TIBC observed early (through week 4), then stabilized.
-*   **Safety:**
-    *   **TEAEs:** Nasopharyngitis, shunt stenosis, diarrhea, contusion, vomiting.
-    *   **Ophthalmologic:** No clinically meaningful difference in retinal hemorrhage or retinal thickness compared to DA.
+## Key Trials
+*   **Akizawa et al. (2020), N=303:** Roxadustat was noninferior to darbepoetin alfa in Japanese HD patients for maintaining Hb 10–12 g/dL. Confirmed acceptable safety profile and stable iron parameters.
 
-## Exam Logic & Clinical Pearls
-*   **ESA Resistance:** In patients with high inflammation (high CRP), HIF-PHIs may be superior to ESAs due to different signaling pathways.
-*   **Administration:** Oral dosing (3x weekly) → improves patient convenience vs. parenteral ESAs.
-*   **Monitoring:** While the study showed stable iron, HIF-PHIs generally improve iron mobilization, potentially reducing the need for IV iron.
-*   **Contraindications/Cautions:** Retinal neovascular lesions (monitored in study; no significant signal found, but remains a theoretical concern with HIF activation).
-
-## References
-*   **Akizawa et al. (2020):** JASN. Non-inferiority of Roxadustat vs. Darbepoetin alfa in HD patients.
-*   **Textbook Correlation:** See **Brenner & Rector's** (Anemia of CKD section) for HIF-PHI pharmacology.
+## Quick Summary Table
+| Feature | Roxadustat (HIF-PHI) | Darbepoetin Alfa (ESA) |
+| :--- | :--- | :--- |
+| **Route** | Oral (3x weekly) | Parenteral (1x weekly) |
+| **Mechanism** | Inhibits PHD $\rightarrow$ $\uparrow$ HIF $\rightarrow$ $\uparrow$ EPO | Direct EPO receptor agonist |
+| **Iron Effect** | $\uparrow$ Transferrin, $\uparrow$ TIBC | No direct effect on iron transport |
+| **Inflammation** | Potentially more effective | Reduced efficacy (ESA resistance) |
+| **Primary Risk** | Retinal vascular monitoring | HTN, Cardiovascular events |
