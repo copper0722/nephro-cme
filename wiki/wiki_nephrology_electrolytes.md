@@ -13,6 +13,11 @@ generated: 2026-04-05
 
 # Nephrology Electrolytes — Journal Reading Wiki
 
+> **See also:** Comprehensive exam-oriented entries split by sub-topic:
+> - [Potassium Disorders](/wiki/wiki_nephrology_potassium.md) (hyperK + hypoK)
+> - [Sodium and Water Disorders](/wiki/wiki_nephrology_sodium.md) (hyperNa + hypoNa + SIAD + DI)
+> - [Inherited Tubular Disorders](/wiki/wiki_nephrology_tubular_disorders.md) (Bartter + Gitelman + Liddle + SAME)
+
 ## Sodium Zirconium Cyclosilicate in Hyperkalemia (2015)
 DOI: 10.1056/NEJMoa1411487
 Design: RCT, phase 3, double-blind, placebo-controlled, multicenter
