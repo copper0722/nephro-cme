@@ -5,7 +5,13 @@ source:
   - /wiki/raw/dynamed/transplant_rejection.md
   - /wiki/raw/dynamed/immunosuppression_transplant.md
   - /wiki/raw/dynamed/allograft_dysfunction.md
-tags: [nephrology, transplant, rejection, immunosuppression, bkv, exam]
+  - /wiki/raw/dynamed/hla_kidney_transplant.md
+  - /wiki/raw/dynamed/infection_after_renal_transplant.md
+  - /wiki/raw/dynamed/living_kidney_donation.md
+  - /wiki/raw/dynamed/malignancy_kidney_transplant.md
+  - /wiki/raw/dynamed/medical_management_transplant.md
+  - /wiki/raw/dynamed/pregnancy_after_renal_transplant.md
+tags: [nephrology, transplant, rejection, immunosuppression, bkv, hla, infection, living-donor, malignancy, pregnancy, exam]
 author: claude-opus
 ---
 
