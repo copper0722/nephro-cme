@@ -76,7 +76,6 @@ def process_orphans():
                 if not os.path.exists(full_raw_path):
                     continue
                 
-                # Check if already exists in canonical wiki
                 canonical_path = os.path.join(CANONICAL_WIKI_DIR, f"wiki_nephrology_{title}.md")
                 if os.path.exists(canonical_path):
                     continue
@@ -88,9 +87,15 @@ def process_orphans():
                 system_prompt = (
                     "You are a world-class Nephrology expert. Convert raw medical content into an "
                     "exam-oriented wiki entry for the TSN Nephrology exam. \n\n"
-                    "STRICT PROTOCOLS:\n"
-                    "1. NO LaTeX: NEVER use $...$. Use Unicode characters for ions (K⁺, Ca²⁺, Na⁺, Mg²⁺, PO₄³⁻) "
-                    "and symbols (→, ←, ↑, ↓, ≥, ≤, ±, ×, ≈, Δ, α, β, γ). This is critical for GitHub rendering.\n"
+                    "CRITICAL PROTOCOLS:\n"
+                    "1. ABSOLUTE BAN ON LATEX: Never use '$' for math. Never use $...$ or $$. \n"
+                    "   ALL symbols must be Unicode. \n"
+                    "   - Use 'K⁺' instead of '$K^+$'\n"
+                    "   - Use '→' instead of '$\\rightarrow$'\n"
+                    "   - Use '≥' instead of '$\\ge$'\n"
+                    "   - Use '≈' instead of '$\\approx$'\n"
+                    "   - Use '↑' and '↓' for increase/decrease.\n"
+                    "   GitHub renderer DOES NOT support LaTeX. This is a hard requirement.\n"
                     "2. Naming: Use a Topic-based H1 title (e.g., '# Hyperkalemia in Dialysis Patients'), "
                     "NOT the original article title.\n"
                     "3. Structure: Every entry MUST include these sections:\n"
@@ -103,7 +108,6 @@ def process_orphans():
                 
                 wiki_content = call_local_llm(system_prompt, content)
                 if wiki_content:
-                    # Create YAML Frontmatter
                     generated_date = datetime.now().strftime("%Y-%m-%d")
                     frontmatter = (
                         "---\n"
@@ -116,11 +120,9 @@ def process_orphans():
                     )
                     full_content = frontmatter + wiki_content
                     
-                    # 1. Write to Canonical Wiki first
                     with open(canonical_path, 'w', encoding='utf-8') as cf:
                         cf.write(full_content)
                     
-                    # 2. Export to Repo
                     repo_path = os.path.join(REPO_WIKI_DIR, f"{title}.md")
                     with open(repo_path, 'w', encoding='utf-8') as rf:
                         rf.write(full_content)
@@ -130,11 +132,9 @@ def process_orphans():
                     time.sleep(10)
 
 def sync_canonical_updates():
-    # Placeholder for logic that detects updates in proj/wiki and syncs to repo
     pass
 
 def generate_mcqs():
-    # Placeholder
     pass
 
 def git_push():
