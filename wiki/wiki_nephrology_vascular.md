@@ -1,8 +1,13 @@
 ---
 type: wiki
 generated: 2026-04-10
-source: /wiki/raw/dynamed/renal_artery_stenosis.md
-tags: [nephrology, RAS, renovascular, FMD, hypertension, exam]
+source:
+  - /wiki/raw/dynamed/renal_artery_stenosis.md
+  - /wiki/raw/dynamed/aerd_cholesterol_embolism.md
+  - /wiki/raw/dynamed/renal_infarction.md
+  - /wiki/raw/dynamed/renal_vein_thrombosis.md
+  - /wiki/raw/dynamed/aps_renal_manifestations.md
+tags: [nephrology, RAS, renovascular, FMD, hypertension, AERD, cholesterol-emboli, renal-infarction, RVT, APS, exam]
 author: claude-opus
 ---
 
@@ -182,3 +187,183 @@ Consider for RAS >= 70% OR 50%-69% with hemodynamic significance AND any of:
 4. **Patient with atherosclerotic RAS 75%. Best management?** Maximize medical therapy (ACEi/ARB if tolerated + CCB + diuretic + statin + antiplatelet). CORAL showed no benefit of stenting over medical therapy. Revascularize only if medical therapy fails (flash pulmonary edema, refractory HF, rapidly declining GFR).
 
 5. **Which imaging modality for RAS screening in patient with GFR 25?** MRA with noncontrast technique or macrocyclic gadolinium (macrocyclic agents have virtually eliminated NSF risk). Avoid CTA (iodinated contrast nephrotoxicity). US is acceptable but may be limited.
+
+---
+
+## Atheroembolic Renal Disease (AERD) -- Cholesterol Crystal Embolism
+
+### Exam Logic Summary
+
+AERD questions test: (1) classic triad (vascular procedure + AKI + blue toes/livedo reticularis), (2) distinguishing from contrast nephropathy (delayed onset, eosinophilia, hypocomplementemia), (3) pathognomonic biopsy finding (cholesterol clefts), (4) management (supportive + statins, NOT anticoagulation). Key distractor: confusing AERD with contrast nephropathy -- contrast nephropathy peaks at 24-72 hours and resolves; AERD is delayed (weeks) and progressive.
+
+**Textbook ref:** Brenner Ch. 41 (Vascular Diseases), Harrison Ch. 278
+
+### Definition and Types
+
+- Cholesterol crystal emboli from ulcerated aortic atherosclerotic plaques occlude small renal arteries (100-200 um)
+- Three types: acute (< 7 days, 20%-30%), subacute (weeks-months, 57%, MOST COMMON), chronic spontaneous (21%)
+- 5%-10% of all acute renal failure cases
+
+### Classic Triad (Exam Pearl)
+
+1. **Precipitating factor:** recent vascular procedure (angiography, vascular surgery, catheterization) -- 75% of cases are iatrogenic
+2. **Acute or subacute renal failure:** progressive SCr increase days-weeks after procedure
+3. **Peripheral embolization signs:** blue toe syndrome (cyanotic, painful, cool toes with PALPABLE pulses), livedo reticularis (mottled red-blue discoloration of legs)
+
+**Exam pearl:** Blue toes with PALPABLE pedal pulses = cholesterol emboli (NOT arterial occlusion). In peripheral arterial disease, pulses are ABSENT. This is a classic exam distinction.
+
+### AERD vs Contrast Nephropathy
+
+| Feature | AERD | Contrast Nephropathy |
+|---|---|---|
+| Onset | Days to WEEKS after procedure | 24-72 HOURS after contrast |
+| Course | Progressive, often irreversible | Self-limited, resolves in 1-2 weeks |
+| Eosinophilia | Yes (up to 80%) | No |
+| Hypocomplementemia | Yes (transient C3 decrease, 39%) | No |
+| Blue toes/livedo | Yes | No |
+| Urine | Bland (minimal proteinuria, eosinophiluria) | Bland or granular casts |
+| Biopsy | Cholesterol clefts | ATN |
+
+### Lab Findings
+- Elevated SCr; elevated ESR, CRP
+- Hypereosinophilia (14%-71%, transient in first days)
+- Transient C3 hypocomplementemia (39%)
+- Eosinophiluria
+- Elevated LDH if renal infarction component
+
+### Biopsy
+- Cholesterol clefts: biconvex, needle-shaped empty spaces (crystals dissolved during processing)
+- On frozen section: birefringent under polarized light
+- Located in interlobular and arcuate arteries
+- IF: negative for immunoglobulins
+- Sensitivity approximately 75% (patchy distribution)
+- Skin biopsy diagnostic in 92% (less invasive alternative)
+
+### Management
+- **No definitive treatment** -- supportive + secondary prevention
+- **Statins for ALL patients** (HR 0.53 for renal survival; HR 0.44 for patient survival)
+- **AVOID unnecessary anticoagulation** (may paradoxically WORSEN embolization by destabilizing plaques)
+- Avoid additional catheter interventions
+- Control modifiable CVD risk factors
+- Dialysis if needed: PD preferred (no anticoagulation required)
+- Corticosteroids: conflicting evidence; consider for multisystem/progressive disease
+- Surgical removal of embolic source: only life-threatening situations
+
+**Exam pearl:** Management of AERD = statins + AVOID anticoagulation + supportive care. The exam may present a patient post-catheterization with progressive renal failure and blue toes on warfarin -- the correct answer is to STOP anticoagulation (it caused the embolization) and start statins. This is counterintuitive but high-yield.
+
+---
+
+## Renal Infarction
+
+### Definition and Epidemiology
+- Rare condition from renal artery blockage or reduced arterial flow
+- Causes: thromboembolism (heart/aorta origin) >> in situ renal artery thrombosis
+- Average age 60-70 years; incidence 0.004%-0.007% in ED
+- 2% incidence in patients with atrial fibrillation
+
+### Etiology
+
+| Cause | Proportion | Key Associations |
+|---|---|---|
+| Cardiogenic (thromboembolism) | 55.7% | Atrial fibrillation (25%-65%), endocarditis, mural thrombus |
+| Renal artery injury | 7.5% | Atherosclerosis, FMD, dissection, aneurysm, vasculitis |
+| Hypercoagulable state | 6.6% | APS, malignancy, protein C/S deficiency |
+| Idiopathic | 30.2% | Workup negative |
+
+### Clinical Presentation
+- Flank/abdominal pain (86%-100%), hematuria, nausea, vomiting, fever, acute HTN
+- Mimics: pyelonephritis, nephrolithiasis, renal colic, acute abdomen
+
+### Diagnosis
+- **LDH markedly elevated** (median 660 U/L, > ULN in 90.5%) -- key diagnostic clue
+- CRP elevated (> ULN in 77.6%), leukocytosis, hematuria, proteinuria
+- Imaging: contrast-enhanced CT shows **wedge-shaped perfusion defect**; complete occlusion shows **"rim sign"** (viable capsular tissue)
+- Gold standard: renal artery angiography (invasive)
+
+**Exam pearl:** Acute flank pain + markedly elevated LDH + hematuria = think renal infarction. LDH elevation is the distinguishing lab feature (not elevated in most other causes of flank pain). If a question presents flank pain with LDH > 500 U/L and negative stone workup, consider renal infarction.
+
+### Management
+- Anticoagulation: heparin IV -> warfarin (target INR 2-3); BUT bleeding risk 13% vs 0% without anticoagulation in idiopathic cases
+- Endovascular therapy (thrombolysis, angioplasty): consider if no atrophic kidneys or prolonged ischemia
+- Prognosis: renal function usually returns to baseline within 1 month; ESRD rare (2.1%); mortality 5%
+
+---
+
+## Renal Vein Thrombosis (RVT)
+
+### Overview
+- Blood clot in major renal veins/tributaries; left > right (2:1, anatomic complexity)
+- More common in neonates; one of most common causes of neonatal venous thrombosis
+- In adults: 5%-62% of nephrotic syndrome patients (especially membranous nephropathy)
+
+### Risk Factors (Virchow Triad)
+
+| Factor | Examples |
+|---|---|
+| **Endothelial damage** | Trauma, tumor infiltration, graft rejection, catheter, transplant surgery |
+| **Stasis** | Dehydration, transplant vein kink, retroperitoneal compression |
+| **Hypercoagulable** | Nephrotic syndrome (especially **membranous**, MPGN, FSGS), APS, protein C/S deficiency, Factor V Leiden, malignancy, OCP |
+
+- Transplant RVT: 3%-6% of recipients; peaks 7-10 days post-op
+- Neonates: perinatal asphyxia, maternal diabetes, dehydration, polycythemia
+
+### Clinical Features
+- Acute: gross hematuria, flank pain, fever, nausea/vomiting
+- Chronic: may be asymptomatic or present as peripheral edema
+- Transplant RVT: **sudden anuria + tenderness/severe pain over graft**
+- Extensive left-sided: painful left testicle swelling (varicocele) or pelvic congestion (females)
+
+### Diagnosis
+- US preferred: enlarged hyperechogenic kidney, loss of corticomedullary differentiation, abnormal Doppler flow
+- CT/MRA if US ambiguous
+- MAG-3 scan distinguishes RVT from ATN: perfusion PRESERVED in RVT, DECREASED/ABSENT in ATN
+
+**Exam pearl:** Nephrotic syndrome patient (especially membranous nephropathy) with sudden flank pain and hematuria = think RVT. Membranous nephropathy has the HIGHEST RVT risk among glomerular diseases. The exam may also test: transplant patient within 1 week post-op with sudden anuria and graft pain = RVT until proven otherwise.
+
+### Management
+- Anticoagulation for symptomatic patients and bilateral involvement: UFH -> LMWH or warfarin
+- Asymptomatic unilateral with normal contralateral kidney: may not need specific treatment
+- Severe/unremitting nephrotic syndrome with albumin < 20 g/L: long-term/lifelong anticoagulation
+- Neonates: supportive care + monitoring if unilateral without renal impairment; anticoagulate if IVC extension or bilateral
+
+---
+
+## Renal Manifestations of Antiphospholipid Syndrome (APS)
+
+### Overview
+- Kidney = major target organ in APS; renal disease prevalence 2.7%-25%
+- Three categories: (1) large vessel thrombosis (renal vein/artery), (2) renal artery stenosis, (3) aPL-associated nephropathy (intrarenal small-vessel vasculopathy)
+- > 50% with catastrophic APS have renal involvement
+
+### aPL-Associated Nephropathy (Exam Key)
+- Spectrum of intrarenal lesions: thrombotic microangiopathy, fibrous intimal hyperplasia, cortical atrophy, tubular thyroidization
+- Lesions are typically **bland** (lacking inflammatory component) -- differentiates from lupus nephritis
+- Most progress to stable CKD; < 10% develop ESRD
+- Prevalence: primary APS 2.7%-9%; SLE-related APS 11.4%-14.3%
+
+### Diagnosis
+- Definite APS: >= 1 clinical + >= 1 laboratory criteria (separated by > 12 weeks and < 5 years)
+- Lab criteria (>= 2 occasions >= 12 weeks apart): lupus anticoagulant, anticardiolipin IgG/IgM, anti-beta2-GP1 IgG/IgM
+- Screen ALL SLE patients for aPL [Strong]
+- Kidney biopsy: thrombotic microangiopathy + bland lesions (no inflammation) + aPL-positive = aPL-nephropathy
+
+### Management
+- Venous thrombosis: warfarin indefinitely [Strong]; target INR 2-3 [Strong]
+- Obstetric APS: heparin + low-dose aspirin throughout pregnancy [Strong]
+- Catastrophic APS: glucocorticoids + heparin + plasmapheresis or IVIG [Conditional]; refractory: rituximab or eculizumab [Conditional]
+- aPL-nephropathy: HTN control critical; anticoagulation; consider hydroxychloroquine, mTOR inhibitors
+- Refractory: IVIG, plasma exchange, rituximab, complement inhibition
+
+**Exam pearl:** APS nephropathy is characterized by bland (non-inflammatory) thrombotic microangiopathy. If biopsy shows TMA WITHOUT inflammatory infiltrate in a patient with positive aPL and no other cause, this is aPL-nephropathy. Distinguish from lupus nephritis (has inflammatory component) and TTP/HUS (different clinical context).
+
+---
+
+## High-Yield Vascular Exam Scenarios (Additional)
+
+8. **70-year-old man, 2 weeks after coronary catheterization, progressive renal failure, blue toes with palpable pulses, livedo reticularis on legs, eosinophilia, low C3:** AERD (cholesterol embolism). Stop anticoagulation. Start statins. Supportive care. PD if dialysis needed.
+
+9. **45-year-old with atrial fibrillation presents with sudden left flank pain, hematuria, LDH 800 U/L:** Renal infarction from cardioembolism. Contrast CT will show wedge-shaped perfusion defect. Anticoagulate with heparin -> warfarin.
+
+10. **Patient with membranous nephropathy, albumin 18 g/L, presents with acute flank pain and gross hematuria:** Renal vein thrombosis. US: enlarged hyperechogenic kidney. Treat with anticoagulation (long-term given severe nephrotic syndrome with albumin < 20 g/L).
+
+11. **Young woman with SLE, positive aPL, HTN, rising creatinine, bland urine, kidney biopsy shows TMA without inflammatory infiltrate:** aPL-associated nephropathy. Anticoagulation + HTN control + hydroxychloroquine. NOT lupus nephritis (which would show inflammatory changes on biopsy).
