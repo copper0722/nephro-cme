@@ -1,11 +1,18 @@
+---
+type: wiki
+generated: 2026-04-09
+tags: [nephrology]
+author: gemma4
+---
+
 # Wiki: Renal Association Clinical Practice Guidelines (Haemodialysis)
 
 ## 1. Dialysis Adequacy & Dose (Thrice Weekly)
 *   **Primary Metric**: **eKt/V** is the most clinically valid small-solute measure.
 *   **Monitoring**: Monthly for most center-based patients. [1B]
 *   **Targets**:
-    *   **Minimum eKt/V**: $\ge 1.2$ (assuming minimal residual renal function - RRF). [1B]
-    *   **Minimum Time**: $\ge 12$ hours/week for patients with minimal RRF. [1B]
+    *   **Minimum eKt/V**: 1.2 (assuming minimal residual renal function - RRF). [1B]
+    *   **Minimum Time**: 12 hours/week for patients with minimal RRF. [1B]
 
 ## 2. Non-Standard Schedules
 ### 2.1 Augmented Schedules
@@ -17,17 +24,17 @@
 *   **Conservative**: Lower dose targets acceptable when **Quality of Life (QoL)** is prioritized over longevity. [2D]
 
 ### 2.3 Paediatric Schedules
-*   **Assessment**: Holistic approach (Growth, Bone Health, Cardiac Function, QoL) $\rightarrow$ not just biochemistry. [1C]
+*   **Assessment**: Holistic approach (Growth, Bone Health, Cardiac Function, QoL) → not just biochemistry. [1C]
 *   **Targets**:
-    *   Standard (3x/week): $\text{eKt/V} \ge 1.2$. [1C]
-    *   Augmented: $\text{Standardized Kt/V} \ge 2.2$. [1C]
+    *   Standard (3x/week): eKt/V  1.2. [1C]
+    *   Augmented: Standardized Kt/V  2.2. [1C]
 *   **Augmentation Indications**: Liquid nutrition, ventricular systolic dysfunction. [2D]
-*   **Blood Flow Rate**: $5\text{--}7 \text{ ml/kg/min}$; extracorporeal volume $< 10\%$ of total blood volume. [1C]
+*   **Blood Flow Rate**: 5--7  ml/kg/min; extracorporeal volume < 10\% of total blood volume. [1C]
 
 ### 2.4 Pregnancy
 *   **Modality**: Early transition to **individualized augmented HD**.
-*   **Dose**: $\ge 20$ hours/week over $\ge 6$ sessions (for minimal RRF). [1B]
-*   **Prescription**: High K$^+$, low bicarbonate, phosphate supplementation. [1C]
+*   **Dose**: 20 hours/week over 6 sessions (for minimal RRF). [1B]
+*   **Prescription**: High K^+, low bicarbonate, phosphate supplementation. [1C]
 *   **Fluid**: Low ultrafiltration (UF) rates; individualized protocol. [2C]
 
 ## 3. Membranes & HDF
@@ -43,7 +50,7 @@
     *   Formal Fluid Status: Quarterly (stable patients) or as prompted. [1C]
     *   Objective (e.g., **Bioimpedance**): Use when clinical assessment is unclear or post-illness. [2C]
 *   **Intradialytic Stability**:
-    *   **Temperature**: $\le 36^\circ\text{C}$ (if standardized). [1C]
+    *   **Temperature**: 36^ (if standardized). [1C]
     *   **UF Rates**: Avoid excessive rates via fluid gain management, staged weight reduction, or augmented schedules. [1B]
 
 ### 4.2 Paediatric Population
@@ -55,6 +62,6 @@
 
 **Exam Logic Note:** 
 *   **Dose**: Remember the "1.2" eKt/V threshold for adults/children.
-*   **Pregnancy**: High intensity ($\ge 20\text{h/week}$) is the key differentiator.
+*   **Pregnancy**: High intensity (20h/week) is the key differentiator.
 *   **HDF**: Not routinely superior to HD, but indicated for refractory hypotension.
 *   **Reference**: Based on Renal Association Guidelines (Modified GRADE).

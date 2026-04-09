@@ -41,6 +41,22 @@ GitHub (public, 考生使用)
 ## Content Rules
 
 - Language: M2M English (same as vault wiki — 考生也是醫師，能讀 M2M)
+- **NO LaTeX**: Use Unicode characters for ions (e.g., K⁺, Ca²⁺) and symbols (→, ↑, Δ). GitHub renderer does NOT support LaTeX.
+- **YAML Frontmatter Required**: Every entry MUST start with:
+  ```yaml
+  ---
+  type: wiki
+  generated: YYYY-MM-DD
+  source: path/to/raw.md
+  tags: [nephrology, ...]
+  author: gemma4
+  ---
+  ```
+- **Topic-based Naming**: H1 must be a topic (e.g., `# Hyperkalemia in Dialysis Patients`), NOT an article title.
+- **Exam-Specific Structure**: Every entry MUST include:
+  - **Exam Logic**: why this is the correct answer, common distractors.
+  - **Textbook ref**: Brenner Ch.X, Nissenson Ch.Y, Daugirdas Ch.Z.
+  - **Key trials**: author, year, N, bottom line.
 - 不需要 PICO/GRADE/bias full appraisal — 考試要的是正確知識
 - 但保留 key evidence（landmark trial names, NNT, GRADE recommendations from guidelines）
 - 結構：topic-based（不是 per-article），按教科書章節組織

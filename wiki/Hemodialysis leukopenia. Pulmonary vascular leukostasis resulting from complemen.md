@@ -1,3 +1,10 @@
+---
+type: wiki
+generated: 2026-04-09
+tags: [nephrology]
+author: gemma4
+---
+
 # Wiki: Hemodialysis-Induced Leukopenia (Pulmonary Leukostasis)
 
 ## Overview
@@ -9,7 +16,7 @@
     *   **Complement Activation:** Cellophane triggers the **Alternative Pathway** of the complement system.
     *   **Biomarkers:** Evidence shows conversion of **C3** and **Factor B**; notably, **C1 is spared**, confirming the non-classical/non-alternative pathway initiation.
     *   **Effector:** Generation of low molecular weight activated complement components (approx. 7,000–20,000 Daltons).
-    *   **Cellular Response:** Activated complement components act on granulocytes and monocytes $\rightarrow$ altered surface charge/chemotaxis $\rightarrow$ **entrapment/adhesion** within the pulmonary vasculature.
+    *   **Cellular Response:** Activated complement components act on granulocytes and monocytes → altered surface charge/chemotaxis → **entrapment/adhesion** within the pulmonary vasculature.
 *   **Resolution:** Transient process; cells typically return to circulation within **1–2 hours**.
 
 ## Key Exam Facts
@@ -18,12 +25,12 @@
 | **Cell Types Affected** | Granulocytes & Monocytes (selective) |
 | **Timing** | First hour of HD |
 | **Membrane Specificity** | Seen with **Cellophane**; NOT seen with **Polysulfone** |
-| **Pathway** | **Alternative Complement Pathway** (C3 $\uparrow$, Factor B $\uparrow$, C1 $\leftrightarrow$) |
+| **Pathway** | **Alternative Complement Pathway** (C3 ↑, Factor B ↑, C1 ) |
 | **Localization** | Pulmonary vasculature (Leukostasis) |
 | **Clinical Significance** | Generally transient; demonstrates biocompatibility issues of older membrane materials |
 
 ## Diagnostic Logic (Exam Pattern)
-*   **Scenario:** Patient undergoes HD $\rightarrow$ CBC shows acute drop in WBC (neutropenia/monocytopenia) $\rightarrow$ recovers shortly after.
+*   **Scenario:** Patient undergoes HD → CBC shows acute drop in WBC (neutropenia/monocytopenia) → recovers shortly after.
 *   **Question:** What is the mechanism?
     *   **Correct:** Complement-mediated pulmonary sequestration.
     *   **Incorrect:** Bone marrow suppression, chemotherapy effect, or cell lysis (hemolysis).

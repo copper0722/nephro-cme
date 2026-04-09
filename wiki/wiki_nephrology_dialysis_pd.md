@@ -167,7 +167,7 @@ Clinical: Largest international PD infection comparison. Training ≥6 days = mo
 ### Global Dialysis Perspective: Canada — Blake2022Canada
 DOI: 10.34067/KID.0000462019
 Design: Country review (Kidney360)
-Key: Single-payer universal system. Hub-and-spoke model: 27 Renal Programs in Ontario → ~100 HD sites. PD 20%, HHD 5% (total home 25%). Modality-independent physician capitation fee in ON/AB/QC removes in-center HD incentive. For-profit dialysis essentially absent. Funding: Ontario modality-dependent bundles (Center HD CA$51K/yr vs Home HD CA$23K/yr = 45% cost).
+Key: Single-payer universal system. Hub-and-spoke model: 27 Renal Programs in Ontario → ~100 HD sites. PD 20%, HHD 5% (total home 25%). Modality-independent physician capitation fee in ON/AB/QC removes in-center HD incentive. For-profit dialysis essentially absent. Funding: Ontario modality-dependent bundles (Center HD CA51K/yr vs Home HD CA23K/yr = 45% cost).
 Clinical: Exemplar of system-level PD promotion via funding alignment. Capitation removes physician-level modality bias. Satellite HD = hub-spoke implemented nationally.
 
 ### Global Dialysis Perspective: Australia — Polkinghorne2022Australia

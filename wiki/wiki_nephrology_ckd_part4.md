@@ -178,6 +178,6 @@ Dr. Deborah M. Mitchell: The mainstay of the acute management of hypercalcemia i
 - **CitationKey**: Wagenlehner2024CefepimeTaniborbactam-Complicated-Urinary
 - **Summary**: # BACKGROUND
 
-Carbapenem-resistant Enterobacterales species and multidrug-resistant Pseudomonas aeruginosa are global health threats. Cefepime-taniborbactam is an investigational $\beta$ -lactam and $\beta$ -lactamase inhibitor combination with activity against Enterobacteriales species and $P_{\cdo
+Carbapenem-resistant Enterobacterales species and multidrug-resistant Pseudomonas aeruginosa are global health threats. Cefepime-taniborbactam is an investigational β -lactam and β -lactamase inhibitor combination with activity against Enterobacteriales species and $P_{\cdo
 - **Conclusion**: Cefepime-taniborbactam was superior to meropenem for the treatment of complicated UTI that included acute pyelonephritis, with a safety profile similar to that of meropenem. (Funded by Venatorx Pharma
 - **Key stats**: P=0.009

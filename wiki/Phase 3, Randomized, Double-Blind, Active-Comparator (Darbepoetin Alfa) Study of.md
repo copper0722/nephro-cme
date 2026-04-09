@@ -1,3 +1,10 @@
+---
+type: wiki
+generated: 2026-04-09
+tags: [nephrology]
+author: gemma4
+---
+
 # Wiki: Roxadustat in HD-CKD Anemia
 
 ## Overview
@@ -6,9 +13,9 @@
 ## Mechanism of Action (MoA)
 *   **Target:** Inhibits HIF prolyl hydroxylase enzymes.
 *   **Pathways:** 
-    *   $\uparrow$ Accumulation of **HIF-$\alpha$** $\rightarrow$ dimerization with HIF-$\beta$.
-    *   $\uparrow$ Endogenous **Erythropoietin (EPO)** production.
-    *   $\uparrow$ **Transferrin receptor** expression & $\uparrow$ **Iron absorption**.
+    *   ↑ Accumulation of **HIF-α** → dimerization with HIF-β.
+    *   ↑ Endogenous **Erythropoietin (EPO)** production.
+    *   ↑ **Transferrin receptor** expression & ↑ **Iron absorption**.
 *   **Clinical Advantage:** Potential for efficacy in inflammatory states where traditional ESAs (e.g., Darbepoetin alfa) show resistance.
 
 ## Clinical Evidence: Phase 3 Trial (Akizawa et al., 2020)
@@ -16,22 +23,22 @@
 *   **Population:** Japanese patients on stable Hemodialysis (HD) with CKD anemia.
 *   **Comparator:** **Darbepoetin alfa (DA)** (Active comparator).
 *   **Design:** Randomized, double-blind, double-dummy, non-inferiority trial.
-*   **Target Hb:** $10\text{--}12\text{ g/dL}$.
+*   **Target Hb:** 10--12 g/dL.
 
 ### Key Findings
 *   **Efficacy:** **Non-inferior** to DA. 
-    *   $\Delta\text{Hb}_{18-24}$ difference: $-0.02\text{ g/dL}$ (95% CI: $-0.18$ to $0.15$).
-    *   Maintenance rate ($10\text{--}12\text{ g/dL}$): Roxadustat ($95.2\%$) vs. DA ($91.3\%$).
+    *   _18-24 difference: -0.02 g/dL (95% CI: -0.18 to 0.15).
+    *   Maintenance rate (10--12 g/dL): Roxadustat (95.2\%) vs. DA (91.3\%).
 *   **Iron Parameters:** 
     *   Serum iron, ferritin, and TSAT remained stable.
-    *   $\uparrow$ Transferrin and TIBC observed early (through week 4), then stabilized.
+    *   ↑ Transferrin and TIBC observed early (through week 4), then stabilized.
 *   **Safety:**
     *   **TEAEs:** Nasopharyngitis, shunt stenosis, diarrhea, contusion, vomiting.
     *   **Ophthalmologic:** No clinically meaningful difference in retinal hemorrhage or retinal thickness compared to DA.
 
 ## Exam Logic & Clinical Pearls
 *   **ESA Resistance:** In patients with high inflammation (high CRP), HIF-PHIs may be superior to ESAs due to different signaling pathways.
-*   **Administration:** Oral dosing (3x weekly) $\rightarrow$ improves patient convenience vs. parenteral ESAs.
+*   **Administration:** Oral dosing (3x weekly) → improves patient convenience vs. parenteral ESAs.
 *   **Monitoring:** While the study showed stable iron, HIF-PHIs generally improve iron mobilization, potentially reducing the need for IV iron.
 *   **Contraindications/Cautions:** Retinal neovascular lesions (monitored in study; no significant signal found, but remains a theoretical concern with HIF activation).
 

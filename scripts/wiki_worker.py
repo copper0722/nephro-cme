@@ -19,8 +19,8 @@ LOCAL_LLM_URL = "http://localhost:8001/v1/chat/completions"
 MODEL_NAME = "dealignai/Gemma-4-31B-JANG_4M-CRACK"
 
 NEPHRO_KEYWORDS = ["kdigo", "daugirdas", "nolphgokal", "nephrology", "renal", "dialysis", "ckd", "aki"]
-BATCH_LIMIT = 1 # Ultra-conservative: one per run to maximize stability
-MAX_INPUT_CHARS = 15000 # Prevent OOM by truncating extremely long raw files
+BATCH_LIMIT = 1 
+MAX_INPUT_CHARS = 15000
 
 def log(message):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -33,7 +33,6 @@ def run_command(cmd, cwd=None):
     return result
 
 def call_local_llm(system_prompt, user_content):
-    # Truncate input to avoid OOM
     if len(user_content) > MAX_INPUT_CHARS:
         user_content = user_content[:MAX_INPUT_CHARS] + "... [Truncated for stability]"
         
@@ -47,7 +46,6 @@ def call_local_llm(system_prompt, user_content):
         "temperature": 0.3
     }
     try:
-        # Long timeout for 31B model
         response = requests.post(LOCAL_LLM_URL, json=payload, timeout=600)
         response.raise_for_status()
         return response.json()['choices'][0]['message']['content']
@@ -78,8 +76,9 @@ def process_orphans():
                 if not os.path.exists(full_raw_path):
                     continue
                 
-                dest_path = os.path.join(REPO_WIKI_DIR, f"{title}.md")
-                if os.path.exists(dest_path):
+                # Check if already exists in canonical wiki
+                canonical_path = os.path.join(CANONICAL_WIKI_DIR, f"wiki_nephrology_{title}.md")
+                if os.path.exists(canonical_path):
                     continue
                 
                 log(f"Wikifying orphan: {title}")
@@ -88,29 +87,50 @@ def process_orphans():
                 
                 system_prompt = (
                     "You are a world-class Nephrology expert. Convert raw medical content into an "
-                    "exam-oriented wiki entry for the TSN Nephrology exam. \n"
-                    "Rules:\n"
-                    "1. Language: M2M English (concise, medical shorthand).\n"
-                    "2. Focus: Key facts, exam logic, and textbook references (e.g., Brenner, Nissenson).\n"
-                    "3. Structure: Topic-based, high density of information.\n"
-                    "4. Formatting: Markdown. Use bold for key terms.\n"
-                    "5. No full PICO/GRADE unless essential for the correct answer logic."
+                    "exam-oriented wiki entry for the TSN Nephrology exam. \n\n"
+                    "STRICT PROTOCOLS:\n"
+                    "1. NO LaTeX: NEVER use $...$. Use Unicode characters for ions (K⁺, Ca²⁺, Na⁺, Mg²⁺, PO₄³⁻) "
+                    "and symbols (→, ←, ↑, ↓, ≥, ≤, ±, ×, ≈, Δ, α, β, γ). This is critical for GitHub rendering.\n"
+                    "2. Naming: Use a Topic-based H1 title (e.g., '# Hyperkalemia in Dialysis Patients'), "
+                    "NOT the original article title.\n"
+                    "3. Structure: Every entry MUST include these sections:\n"
+                    "   - ## Exam Logic: Why this is the correct answer, common distractors, and conceptual pitfalls.\n"
+                    "   - ## Textbook References: Cite specific chapters from Brenner, Nissenson, or Daugirdas.\n"
+                    "   - ## Key Trials: List landmark trials (Author, Year, N, Bottom Line). No full PICO/GRADE.\n"
+                    "4. Language: M2M English (concise, medical shorthand).\n"
+                    "5. Formatting: Markdown. Use bold for key terms."
                 )
                 
                 wiki_content = call_local_llm(system_prompt, content)
                 if wiki_content:
-                    with open(dest_path, 'w', encoding='utf-8') as dest_f:
-                        dest_f.write(wiki_content)
-                    log(f"Successfully wikified {title}")
+                    # Create YAML Frontmatter
+                    generated_date = datetime.now().strftime("%Y-%m-%d")
+                    frontmatter = (
+                        "---\n"
+                        f"type: wiki\n"
+                        f"generated: {generated_date}\n"
+                        f"source: {path}\n"
+                        f"tags: [nephrology]\n"
+                        f"author: gemma4\n"
+                        "---\n\n"
+                    )
+                    full_content = frontmatter + wiki_content
+                    
+                    # 1. Write to Canonical Wiki first
+                    with open(canonical_path, 'w', encoding='utf-8') as cf:
+                        cf.write(full_content)
+                    
+                    # 2. Export to Repo
+                    repo_path = os.path.join(REPO_WIKI_DIR, f"{title}.md")
+                    with open(repo_path, 'w', encoding='utf-8') as rf:
+                        rf.write(full_content)
+                        
+                    log(f"Successfully wikified {title} (Canonical + Repo)")
                     processed_count += 1
-                    # Cool-down period
                     time.sleep(10)
 
-    if processed_count == 0:
-        log("No new nephro orphans to process.")
-
 def sync_canonical_updates():
-    # Placeholder
+    # Placeholder for logic that detects updates in proj/wiki and syncs to repo
     pass
 
 def generate_mcqs():
