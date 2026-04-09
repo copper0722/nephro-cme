@@ -10,7 +10,7 @@ from datetime import datetime
 VAULT_ROOT = "/Users/copper/dropbox/Vault"
 ORPHAN_FILE = os.path.join(VAULT_ROOT, "_data/wiki_orphans.tsv")
 REPO_WIKI_DIR = os.path.join(VAULT_ROOT, "repos/nephrology-wiki/wiki")
-CANONICAL_WIKI_DIR = os.path.join(VAULT_ROOT, "proj/wiki")
+CANONICAL_WIKI_DIR = os.path.join(VAULT_ROOT, "wiki")
 CME_RAW_DIR = os.path.join(VAULT_ROOT, "repos/nephrology-wiki/cme/bank/raw")
 REPO_ROOT = os.path.join(VAULT_ROOT, "repos/nephrology-wiki")
 ORPHAN_SCANNER = os.path.join(VAULT_ROOT, "repos/vault-scripts/wiki-orphan-scan.py")
