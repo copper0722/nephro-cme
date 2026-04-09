@@ -1,51 +1,51 @@
 ---
 type: wiki
 generated: 2026-04-09
+source: proj/wiki/raw/registry/anzdata_2025_ch04_haemodialysis/raw.md
 tags: [nephrology]
 author: gemma4
 ---
 
-# Wiki: Haemodialysis (HD) Epidemiology & Trends (ANZDATA 2025)
+# Haemodialysis Epidemiology and Trends (ANZDATA 2025)
 
-## 📌 Overview
-Data derived from the **ANZDATA 48th Annual Report (2025)**. Focuses on incidence, prevalence, survival, and prescription trends for HD patients in Australia and New Zealand (2020–2024).
+## Exam Logic
+This topic focuses on the **epidemiological shifts** and **clinical quality indicators** in haemodialysis (HD) populations. 
 
-## 📈 Epidemiology & Demographics
-### Incidence & Prevalence
-*   **Trend:** Total HD prevalence ↑ in both AU and NZ (2020–2024).
-*   **Incident Rate:** Relatively stable since 2022.
-*   **Age Distribution (2024):**
-    *   **Australia:** Older cohort. Peak incident age **65–74 yrs**. 22\% of incident and 27\% of prevalent patients are 75 yrs.
-    *   **New Zealand:** Younger cohort. Peak incident age **55–64 yrs**. Only 10\% of incident and 14\% of prevalent patients are 75 yrs.
+**Key Exam Points:**
+*   **Demographic Divergence:** Australia has a significantly older HD population (incident $\ge$ 75 yrs: 22%) compared to New Zealand (10%).
+*   **Vascular Access Gap:** There is a critical failure in "planned" starts. A low proportion of incident patients start with established permanent access (Australia 39%, NZ 17%), leading to high early catheter dependence.
+*   **Modality Shift:** There is a documented **decline in home HD prevalence** (AU 7.7%, NZ 15.4%) and a decrease in intensive prescriptions ($\le$ 3 sessions/week or $\le$ 15 hours/week).
+*   **Survival Benchmarks:** 1-year survival is $\approx$ 90%; 5-year survival is $\approx$ 50%.
 
-### Patient Survival
-*   **General Benchmarks:** 1-year survival 90\%; 5-year survival 50\%.
-*   **Prognostic Factors:** Survival varies significantly by **age**, **diabetes status**, and **CVD status** at commencement.
+**Common Distractors:**
+*   Assuming home HD is increasing (it is actually falling in this registry).
+*   Confusing incident access rates (low) with prevalent access rates (high, as patients eventually get fistulas).
+*   Overestimating the proportion of elderly patients in the NZ cohort compared to the AU cohort.
 
-## 🛠️ Clinical Practice & Modality
-### Vascular Access (VA)
-*   **Critical Gap:** Low rates of established VA at HD initiation, particularly in younger patients.
-*   **Regional Variance (2024):**
-    *   **Australia:** 39\% incident patients start with VA → increases to 80\% in prevalent population.
-    *   **New Zealand:** 17\% incident patients start with VA → increases to 52\% in prevalent population.
+## Textbook References
+*   **Daugirdas:** Handbook of Dialysis (Chapters on Dialysis Adequacy and Vascular Access).
+*   **Brenner & Rector:** The Kidney (Sections on Maintenance Dialysis and Epidemiology of ESRD).
 
-### Dialysis Prescription
-*   **Intensity Trends:** ↓ proportion of patients receiving >3 sessions/week or >15 hours/week.
-*   **Home HD (HHD):**
-    *   **Prevalence:** ↓ trend in both countries.
-    *   **Rates (2024):** NZ (15.4\%) > AU (7.7\%).
-    *   **Prescription Logic:** HHD patients are significantly more likely to exceed >3 sessions/week or >15 hours/week compared to in-center patients.
+## Key Trials
+*   **ANZDATA Annual Reports (2020-2024):** Registry data confirming stable incidence but increasing prevalence of HD and declining home-based therapy uptake.
 
-## 📋 Summary Table: AU vs NZ (2024)
+## Clinical Summary
+### 1. Demographics & Survival
+*   **Age:** AU peak incident age 65-74; NZ peak incident age 55-64.
+*   **Survival:** Stable over 5 years. 1-yr $\approx$ 90%, 5-yr $\approx$ 50%. Prognosis strongly tied to age, DM, and CVD status.
 
-| Feature | Australia (AU) | New Zealand (NZ) |
+### 2. Vascular Access
+*   **Incident Access:** Low rates of established access at start (AU 39% $\rightarrow$ Prev 80%; NZ 17% $\rightarrow$ Prev 52%).
+*   **Clinical Implication:** High reliance on CVCs in the early phase of HD.
+
+### 3. Prescription Trends
+*   **Intensity:** $\downarrow$ proportion of patients receiving $>3$ sessions/week or $>15$ hours/week.
+*   **Home HD:** $\downarrow$ prevalence (AU 7.7%, NZ 15.4%). Note: Home HD patients are more likely to maintain higher intensity prescriptions ($>3$ sessions/week) than in-center patients.
+
+### 4. Registry Metrics (2024)
+| Metric | Australia | New Zealand |
 | :--- | :--- | :--- |
-| **Peak Incident Age** | 65–74 yrs | 55–64 yrs |
-| **75 yrs (Prevalent)** | 27% | 14% |
-| **Incident VA Rate** | 39% | 17% |
-| **Home HD Rate** | 7.7% | 15.4% |
-
-## 🎓 Exam Logic (TSN Focus)
-*   **VA Timing:** Registry data highlights a failure to optimize VA prior to HD start (especially in NZ), which is a key quality indicator.
-*   **Modality Shift:** Note the inverse relationship between HHD prevalence (falling) and HHD intensity (higher hours/sessions than in-center).
-*   **Demographic Divergence:** Be alert to the significantly older HD population in Australia compared to New Zealand.
+| **Incident $\ge$ 75 yrs** | 22% | 10% |
+| **Prevalent $\ge$ 75 yrs** | 27% | 14% |
+| **Incident w/ Access** | 39% | 17% |
+| **Home HD Prev** | 7.7% | 15.4% |
