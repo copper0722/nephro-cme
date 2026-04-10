@@ -85,61 +85,61 @@ def process_orphans():
             full_raw_path = os.path.join(VAULT_ROOT, path)
             if not os.path.exists(full_raw_path):
                 continue
-                
-                canonical_path = os.path.join(CANONICAL_WIKI_DIR, f"wiki_nephrology_{title}.md")
-                if os.path.exists(canonical_path):
-                    continue
-                
-                log(f"Wikifying orphan: {title}")
-                with open(full_raw_path, 'r', encoding='utf-8') as raw_f:
-                    content = raw_f.read()
-                
-                system_prompt = (
-                    "You are a world-class Nephrology expert. Convert raw medical content into an "
-                    "exam-oriented wiki entry for the TSN Nephrology exam. \n\n"
-                    "CRITICAL PROTOCOLS:\n"
-                    "1. ABSOLUTE BAN ON LATEX: Never use '$' for math. Never use $...$ or $$. \n"
-                    "   ALL symbols must be Unicode. \n"
-                    "   - Use 'K⁺' instead of '$K^+$'\n"
-                    "   - Use '→' instead of '$\\rightarrow$'\n"
-                    "   - Use '≥' instead of '$\\ge$'\n"
-                    "   - Use '≈' instead of '$\\approx$'\n"
-                    "   - Use '↑' and '↓' for increase/decrease.\n"
-                    "   GitHub renderer DOES NOT support LaTeX. This is a hard requirement.\n"
-                    "2. Naming: Use a Topic-based H1 title (e.g., '# Hyperkalemia in Dialysis Patients'), "
-                    "NOT the original article title.\n"
-                    "3. Structure: Every entry MUST include these sections:\n"
-                    "   - ## Exam Logic: Why this is the correct answer, common distractors, and conceptual pitfalls.\n"
-                    "   - ## Textbook References: Cite specific chapters from Brenner, Nissenson, or Daugirdas.\n"
-                    "   - ## Key Trials: List landmark trials (Author, Year, N, Bottom Line). No full PICO/GRADE.\n"
-                    "4. Language: M2M English (concise, medical shorthand).\n"
-                    "5. Formatting: Markdown. Use bold for key terms."
+
+            canonical_path = os.path.join(CANONICAL_WIKI_DIR, f"wiki_nephrology_{title}.md")
+            if os.path.exists(canonical_path):
+                continue
+
+            log(f"Wikifying orphan: {title}")
+            with open(full_raw_path, 'r', encoding='utf-8') as raw_f:
+                content = raw_f.read()
+
+            system_prompt = (
+                "You are a world-class Nephrology expert. Convert raw medical content into an "
+                "exam-oriented wiki entry for the TSN Nephrology exam. \n\n"
+                "CRITICAL PROTOCOLS:\n"
+                "1. ABSOLUTE BAN ON LATEX: Never use '$' for math. Never use $...$ or $$. \n"
+                "   ALL symbols must be Unicode. \n"
+                "   - Use 'K⁺' instead of '$K^+$'\n"
+                "   - Use '→' instead of '$\\rightarrow$'\n"
+                "   - Use '≥' instead of '$\\ge$'\n"
+                "   - Use '≈' instead of '$\\approx$'\n"
+                "   - Use '↑' and '↓' for increase/decrease.\n"
+                "   GitHub renderer DOES NOT support LaTeX. This is a hard requirement.\n"
+                "2. Naming: Use a Topic-based H1 title (e.g., '# Hyperkalemia in Dialysis Patients'), "
+                "NOT the original article title.\n"
+                "3. Structure: Every entry MUST include these sections:\n"
+                "   - ## Exam Logic: Why this is the correct answer, common distractors, and conceptual pitfalls.\n"
+                "   - ## Textbook References: Cite specific chapters from Brenner, Nissenson, or Daugirdas.\n"
+                "   - ## Key Trials: List landmark trials (Author, Year, N, Bottom Line). No full PICO/GRADE.\n"
+                "4. Language: M2M English (concise, medical shorthand).\n"
+                "5. Formatting: Markdown. Use bold for key terms."
+            )
+
+            wiki_content = call_local_llm(system_prompt, content)
+            if wiki_content:
+                generated_date = datetime.now().strftime("%Y-%m-%d")
+                frontmatter = (
+                    "---\n"
+                    f"type: wiki\n"
+                    f"generated: {generated_date}\n"
+                    f"source: {path}\n"
+                    f"tags: [nephrology]\n"
+                    f"author: gemma4\n"
+                    "---\n\n"
                 )
-                
-                wiki_content = call_local_llm(system_prompt, content)
-                if wiki_content:
-                    generated_date = datetime.now().strftime("%Y-%m-%d")
-                    frontmatter = (
-                        "---\n"
-                        f"type: wiki\n"
-                        f"generated: {generated_date}\n"
-                        f"source: {path}\n"
-                        f"tags: [nephrology]\n"
-                        f"author: gemma4\n"
-                        "---\n\n"
-                    )
-                    full_content = frontmatter + wiki_content
-                    
-                    with open(canonical_path, 'w', encoding='utf-8') as cf:
-                        cf.write(full_content)
-                    
-                    repo_path = os.path.join(REPO_WIKI_DIR, f"{title}.md")
-                    with open(repo_path, 'w', encoding='utf-8') as rf:
-                        rf.write(full_content)
-                        
-                    log(f"Successfully wikified {title} (Canonical + Repo)")
-                    processed_count += 1
-                    time.sleep(10)
+                full_content = frontmatter + wiki_content
+
+                with open(canonical_path, 'w', encoding='utf-8') as cf:
+                    cf.write(full_content)
+
+                repo_path = os.path.join(REPO_WIKI_DIR, f"{title}.md")
+                with open(repo_path, 'w', encoding='utf-8') as rf:
+                    rf.write(full_content)
+
+                log(f"Successfully wikified {title} (Canonical + Repo)")
+                processed_count += 1
+                time.sleep(10)
 
 def sync_canonical_updates():
     pass
