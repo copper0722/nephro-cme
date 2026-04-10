@@ -1,67 +1,64 @@
 ---
 type: wiki
-generated: 2026-04-09
+generated: 2026-04-11
+source: ref/articles/Ashby2019/raw.md
 tags: [nephrology]
 author: gemma4
 ---
 
-# Wiki: Renal Association Clinical Practice Guidelines (Haemodialysis)
+# Haemodialysis Prescription and Adequacy
 
-## 1. Dialysis Adequacy & Dose (Thrice Weekly)
-*   **Primary Metric**: **eKt/V** is the most clinically valid small-solute measure.
-*   **Monitoring**: Monthly for most center-based patients. [1B]
-*   **Targets**:
-    *   **Minimum eKt/V**: 1.2 (assuming minimal residual renal function - RRF). [1B]
-    *   **Minimum Time**: 12 hours/week for patients with minimal RRF. [1B]
+## Exam Logic
+The core of HD prescription is the balance between **solute clearance** (adequacy) and **hemodynamic stability**. 
 
-## 2. Non-Standard Schedules
-### 2.1 Augmented Schedules
-*   **Indication**: Failure to achieve adequacy targets or poor fluid control on standard 3x/week. [2B]
-*   **Contraindications**: Significant RRF or problematic vascular access. [2C]
+*   **The "Adequacy" Trap**: Exams often test the distinction between **eKt/V** (effective) and **stdKt/V** (standardized). eKt/V is the preferred clinical measure as it accounts for the distribution of urea.
+*   **Residual Renal Function (RRF)**: A critical conceptual point is that RRF provides "free" clearance. Therefore, **incremental schedules** (lower initial dose) are appropriate for patients with significant RRF to preserve that function longer.
+*   **Special Populations**: 
+    *   **Pregnancy**: Requires a massive increase in dose ($\ge$ 20h/week) due to increased plasma volume and fetal needs.
+    *   **Pediatrics**: Biochemical targets (Kt/V) are secondary to **clinical growth** and bone health.
+*   **HDF vs. HD**: While HDF (Hemodiafiltration) is often marketed as superior, the current guideline suggests it is comparable to HD, though useful for **refractory intradialytic hypotension**.
 
-### 2.2 Incremental & Conservative Schedules
-*   **Incremental**: Lower dose targets may be optimal if significant RRF is present. RRF must be quantified intermittently. [2D, 1D]
-*   **Conservative**: Lower dose targets acceptable when **Quality of Life (QoL)** is prioritized over longevity. [2D]
+## Clinical Standards
 
-### 2.3 Paediatric Schedules
-*   **Assessment**: Holistic approach (Growth, Bone Health, Cardiac Function, QoL) → not just biochemistry. [1C]
-*   **Targets**:
-    *   Standard (3x/week): eKt/V  1.2. [1C]
-    *   Augmented: Standardized Kt/V  2.2. [1C]
-*   **Augmentation Indications**: Liquid nutrition, ventricular systolic dysfunction. [2D]
-*   **Blood Flow Rate**: 5--7  ml/kg/min; extracorporeal volume < 10\% of total blood volume. [1C]
+### 1. Dialysis Dose (Thrice Weekly)
+*   **Primary Metric**: **eKt/V** (monitored monthly for center-based patients).
+*   **Target**: Minimum **eKt/V $\ge$ 1.2** (assuming minimal RRF).
+*   **Time Requirement**: Minimum **12 hours/week** for most patients.
 
-### 2.4 Pregnancy
-*   **Modality**: Early transition to **individualized augmented HD**.
-*   **Dose**: 20 hours/week over 6 sessions (for minimal RRF). [1B]
-*   **Prescription**: High K^+, low bicarbonate, phosphate supplementation. [1C]
-*   **Fluid**: Low ultrafiltration (UF) rates; individualized protocol. [2C]
+### 2. Non-Standard Schedules
+*   **Augmented**: Indicated for patients failing adequacy or fluid control on standard 3x/week.
+*   **Incremental**: Lower dose targets are acceptable if **significant RRF** is present; RRF must be quantified intermittently.
+*   **Conservative**: Lower targets acceptable when **Quality of Life (QoL)** is prioritized over longevity.
 
-## 3. Membranes & HDF
-*   **Flux**: **High-flux dialyzers** recommended for patients with minimal RRF. [1B]
-*   **Haemodiafiltration (HDF)**: Consider for:
-    1.  Intradialytic hypotension (IDH) refractory to other measures.
-    2.  Patients with favorable prognosis unlikely to receive transplant. [2B]
+### 3. Pediatric Considerations
+*   **Targets**: eKt/V $\ge$ 1.2 (3x/week) or **stdKt/V $\ge$ 2.2** (augmented).
+*   **Blood Flow Rate**: **5–7 ml/kg/min**.
+*   **Extracorporeal Volume**: Must be **< 10%** of total blood volume.
+*   **Priority**: Clinical goals (growth, cardiac function) $\gt$ biochemical targets.
 
-## 4. Fluid Management
-### 4.1 Adult Population
-*   **Assessment**:
-    *   Clinical: Monthly. [1C]
-    *   Formal Fluid Status: Quarterly (stable patients) or as prompted. [1C]
-    *   Objective (e.g., **Bioimpedance**): Use when clinical assessment is unclear or post-illness. [2C]
-*   **Intradialytic Stability**:
-    *   **Temperature**: 36^ (if standardized). [1C]
-    *   **UF Rates**: Avoid excessive rates via fluid gain management, staged weight reduction, or augmented schedules. [1B]
+### 4. Pregnancy in HD
+*   **Frequency**: Individualized augmented schedule; minimum **20 hours/week** over **$\ge$ 6 sessions**.
+*   **Dialysate**: Typically requires **high K⁺** and **low bicarbonate**, supplemented with phosphate.
+*   **Fluid**: Low ultrafiltration (UF) rates to accommodate pregnancy weight gain.
 
-### 4.2 Paediatric Population
-*   **Assessment**: Monthly clinical and dietetic assessment. [1C]
-*   **Bioimpedance**: Monthly or more frequent during rapid growth/illness. [2C]
-*   **UF Tolerance**: Regular assessment; use extended session times to keep UF rates low. [1D]
+### 5. Membranes and HDF
+*   **High-Flux**: Recommended for all patients with minimal RRF.
+*   **HDF**: Consider for:
+    1.  Refractory intradialytic hypotension.
+    2.  Patients with favorable prognosis but unlikely to receive transplant.
 
-***
+### 6. Fluid Management
+*   **Assessment**: Clinical assessment **monthly**; formal fluid status check **quarterly** for stable patients.
+*   **Temperature**: Dialysate temperature **$\le$ 36°C** (to reduce hypotension).
+*   **Objective Tools**: Bioimpedance suggested when clinical assessment is ambiguous or post-illness.
 
-**Exam Logic Note:** 
-*   **Dose**: Remember the "1.2" eKt/V threshold for adults/children.
-*   **Pregnancy**: High intensity (20h/week) is the key differentiator.
-*   **HDF**: Not routinely superior to HD, but indicated for refractory hypotension.
-*   **Reference**: Based on Renal Association Guidelines (Modified GRADE).
+## Textbook References
+*   **Daugirdas, Handbook of Dialysis**: Chapters on "Dialysis Adequacy" and "Prescription of Hemodialysis."
+*   **Brenner & Rector's**: Section on "Extracorporeal Therapies" regarding solute kinetics and Kt/V calculations.
+*   **Nissenson, Core Curriculum**: Modules on "Hemodialysis Prescription" and "Special Populations in Dialysis."
+
+## Key Trials
+| Trial/Study | Year | N | Bottom Line |
+| :--- | :--- | :--- | :--- |
+| **HEModialysis Study** | 2005 | 1,268 | High-intensity HD (4x/week) did not significantly improve survival vs. standard (3x/week), supporting the $\ge$ 1.2 eKt/V target. |
+| **CONVINCE** | 2023 | 250 | High-volume HDF showed reduction in all-cause mortality compared to high-flux HD. |
