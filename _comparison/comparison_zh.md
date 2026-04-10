@@ -19,10 +19,12 @@ source: Aitken2020 (AVF patency RCT, JASN)
 |---|---|---|---|---|
 | **Gemma 4 8B** (Q4_K_M) | 本地 ollama | 0（免費） | 41 秒 | $0 |
 | **Gemma 4 31B** (Q4_K_M) | 本地 ollama | 0（免費） | 189 秒 | $0 |
-| **Codex (GPT-5.4)** | OpenAI API | 21,176 | 253 秒 | ~$0.15 |
+| **Codex (GPT-5.4)** | ChatGPT Plus quota | 21,176* | 253 秒 | Plus 月費內 |
 | **Claude Opus 4.6** | Anthropic API | 32,967 | 88 秒 | ~$0.50 |
 | **Claude Sonnet 4.6** | Anthropic API | 25,121 | 60 秒 | ~$0.10 |
 | **Claude Haiku 4.5** | Anthropic API | 65,730 | 32 秒 | ~$0.03 |
+
+\* Codex 21,176 token 由 ChatGPT Plus quota 支付（GPT-5.4 側），不消耗 Claude Code token。CC 側僅花費數百 token overhead 用於傳送 prompt 和接收結果。
 
 ---
 
