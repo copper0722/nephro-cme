@@ -15,8 +15,8 @@ CME_RAW_DIR = os.path.join(VAULT_ROOT, "repos/nephrology-wiki/cme/bank/raw")
 REPO_ROOT = os.path.join(VAULT_ROOT, "repos/nephrology-wiki")
 ORPHAN_SCANNER = os.path.join(VAULT_ROOT, "repos/vault-scripts/wiki-orphan-scan.py")
 
-LOCAL_LLM_URL = "http://localhost:8001/v1/chat/completions"
-MODEL_NAME = "dealignai/Gemma-4-31B-JANG_4M-CRACK"
+LOCAL_LLM_URL = "http://localhost:11434/v1/chat/completions"
+MODEL_NAME = "gemma4:latest"
 
 NEPHRO_KEYWORDS = ["kdigo", "daugirdas", "nolphgokal", "nephrology", "renal", "dialysis", "ckd", "aki",
                     "hemodialysis", "peritoneal", "kidney", "glomerular", "transplant", "electrolyte",
