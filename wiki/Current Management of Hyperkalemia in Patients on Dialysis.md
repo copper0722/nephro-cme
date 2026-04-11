@@ -1,54 +1,61 @@
 ---
 type: wiki
-generated: 2026-04-09
+generated: 2026-04-12
+source: ref/articles/Bansal2020/raw.md
 tags: [nephrology]
 author: gemma4
 ---
 
-# Hyperkalemia in Dialysis Patients
+# Hyperkalemia in Maintenance Dialysis
 
-## 1. Overview & Epidemiology
-*   **Definition:** Serum K⁺ > 5.0  mmol/L.
-*   **Risk Profile:** Highest in maintenance **Hemodialysis (HD)**; lower in **Peritoneal Dialysis (PD)** due to continuous clearance and higher prevalence of residual renal function (RRF) + diuretic use.
-*   **Clinical Impact:** Increased risk of arrhythmias, sudden cardiac arrest, and CV mortality (1.4-fold increase with hyperkalemia).
-*   **PD Paradox:** Higher risk of **hypokalemia** (10–36%) compared to HD.
+## Overview
+Hyperkalemia (K⁺ > 5.0 mmol/L) is a high-prevalence, life-threatening complication in ESRD, particularly in patients on maintenance hemodialysis (HD). Management requires balancing the removal of accumulated interdialytic K⁺ against the risk of intradialytic/postdialysis hypokalemia.
 
-## 2. Dialysis Kinetics & Physiology
+## Dialysis Kinetics & Physiology
 ### Hemodialysis (HD)
-*   **Removal Mechanism:** 85% Diffusion (gradient-driven), 15% Convection.
-*   **Kinetics:** 
-    *   Rapid drop (1  mmol/L) in 1st hour → gradual drop (1  mmol/L) over next 2 hours → equilibrium in final hour.
-    *   **Rebound Phenomenon:** Post-HD rise in serum K⁺ due to intracellular-to-extracellular shift. 
-    *   **Exam Logic:** High serum-dialysate K⁺ gradients (e.g., dialysate K^+ < 2  mmol/L) increase the magnitude and speed of post-dialysis rebound.
-*   **Capacity:** Typical 3x/week HD removes 210--300  mmol/week.
+*   **Removal Volume:** Typically 70–100 mmol/session (210–300 mmol/week for 3x/week HD).
+*   **Mechanisms:** 
+    *   **Diffusion (85%):** Driven by the serum–dialysate K⁺ gradient.
+    *   **Convection (15%):** Minor contribution.
+*   **Temporal Pattern:** 
+    *   **Hour 1:** Rapid drop (~1 mmol/L) due to maximum gradient.
+    *   **Hours 2–3:** Gradual decrease (~1 mmol/L).
+    *   **Hour 4:** Equilibrium reached between dialytic removal and intracellular-to-extracellular shift.
+*   **The Rebound Phenomenon:** Post-HD rise in serum K⁺ occurs as K⁺ shifts from the intracellular space (which holds 98% of total body K⁺) back into the extracellular fluid. 
+    *   **Critical Point:** A very low dialysate K⁺ concentration (< 2 mmol/L) increases the gradient, leading to more aggressive removal but a **more rapid and pronounced post-dialysis rebound**.
 
 ### Peritoneal Dialysis (PD)
-*   **Removal Mechanism:** Slower, continuous clearance.
-*   **Kinetics:** 
-    *   Intermittent PD: Rapid initial K⁺ drop driven by glucose-induced insulin release (intracellular shift).
-    *   CAPD: Lower total daily removal (33--35  mmol/d) compared to intake (70--80  mmol/d), relying heavily on RRF.
+*   **Risk Profile:** Lower risk of hyperkalemia than HD due to continuous nature of therapy and higher prevalence of residual kidney function (RKF) + loop diuretic use.
+*   **Risk of Hypokalemia:** Significantly higher in PD (10–36%) compared to HD.
+*   **Kinetics:** Slower removal rate but continuous; glucose absorption in PD can trigger insulin release, promoting intracellular K⁺ shift.
 
-## 3. Determinants of Hyperkalemia (Exam High-Yield)
-| Category | Factors Increasing Serum K⁺ |
-| :--- | :--- |
-| **Dietary** | High-K fruits/veg (bananas, potatoes, avocado), K⁺-containing salt substitutes, certain additives (e.g., potassium citrate in some sodas). |
-| **Medications** | **RAASi** (ACEi, ARB, MRA), NSAIDs, β-blockers, Digoxin, PPIs, Heparin. |
-| **Metabolic/Other** | Acidosis, Insulin deficiency, Hemolysis, Rhabdomyolysis, Hyperosmolality (mannitol, contrast). |
-| **Dialysis** | Short session duration, high dialysate K⁺. |
+## Management & Determinants
+### Factors Increasing Serum K⁺
+*   **Dietary:** High-K⁺ fruits/veg, salt substitutes (KCl), and certain additives (e.g., potassium citrate in some beverages).
+*   **Medications:** 
+    *   **RAASi:** ACEi, ARBs, MRAs.
+    *   **Others:** $\beta$-blockers, Digoxin, PPIs, Heparin, NSAIDs.
+*   **Clinical States:** Acidosis, hemolysis, rhabdomyolysis, insulin deficiency.
 
-## 4. Management Strategies
-### Standard Approaches
-1.  **Dialysis Optimization:** 
-    *   ↓ Dialysate K⁺ concentration.
-    *   ↑ Dialysis frequency or session duration.
-2.  **Dietary Modification:** Restriction of high-K foods (Note: may impact nutritional status).
-3.  **Pharmacological:** Avoidance of K⁺-increasing drugs.
+### Therapeutic Interventions
+1.  **Dialysis Optimization:** Adjusting dialysate K⁺, increasing session frequency/duration.
+2.  **Dietary Modification:** Restriction of high-K⁺ foods.
+3.  **Pharmacotherapy:** 
+    *   **Traditional:** Loop diuretics (if RKF present).
+    *   **Modern Binders:** Patiromer and Sodium Zirconium Cyclosilicate (SZC) to reduce dietary restriction burden and stabilize K⁺.
 
-### Emerging Non-Dialysis Options
-*   **K⁺ Binders:** **Patiromer** and **Sodium Zirconium Cyclosilicate (SZC)**.
-*   **Clinical Utility:** May reduce the need for restrictive diets and lower the risk of life-threatening hyperkalemic events.
+## Exam Logic
+*   **The "Low Dialysate" Trap:** A common distractor is the assumption that the lowest possible dialysate K⁺ is always best for hyperkalemic patients. **Correct Logic:** While it removes more K⁺ initially, it increases the serum-dialysate gradient, which worsens the **post-dialysis rebound** and increases cardiac arrhythmia risk due to rapid K⁺ fluctuations.
+*   **HD vs. PD Risk:** If a question asks which modality is more prone to hyperkalemia, the answer is **HD** (intermittent nature). If it asks about hypokalemia, the answer is **PD** (continuous removal + diuretics).
+*   **Intracellular Shift:** Remember that serum K⁺ represents only 2% of total body K⁺. Therefore, treating only the extracellular fluid (via dialysis) without addressing total body stores or the shift mechanism leads to the "rebound" effect.
 
-## 5. Key Exam Logic (TSN Focus)
-*   **HD vs. PD:** If a question asks why PD patients are less prone to hyperkalemia → Answer: **Continuous clearance + RRF**.
-*   **Rebound:** If a patient has severe post-HD K⁺ rebound → Consider: **Excessive gradient** (dialysate K⁺ too low) or **inadequate session time** to allow intracellular equilibration.
-*   **Symptom Trigger:** Be alert for "hidden" K⁺ sources (e.g., salt substitutes) in patients with refractory hyperkalemia despite "dieting."
+## Textbook References
+*   **Daugirdas' Handbook of Dialysis:** Chapters on Dialysate Composition and Potassium Balance.
+*   **Brenner and Rector's The Kidney:** Sections on Potassium Homeostasis and Renal Replacement Therapy.
+*   **Nissenson's Core Curriculum in Nephrology:** Management of Electrolyte Disorders in ESRD.
+
+## Key Trials
+| Trial/Study | Year | N | Bottom Line |
+| :--- | :--- | :--- | :--- |
+| **PORTEND** | 2017 | Observational | Incidence of predialysis hyperkalemia (K⁺ > 5.0) was 37% in patients with dialysate K⁺ $\le$ 2 mmol/L vs 21% in those with $\ge$ 3 mmol/L. |
+| **Patiromer/SZC Studies** | Various | Various | Newer K⁺ binders can effectively lower serum K⁺ in dialysis patients, potentially easing restrictive dietary requirements. |
