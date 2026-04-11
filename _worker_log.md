@@ -3279,3 +3279,5 @@
 - 2026-04-11 19:20:10: Wikifying orphan: Comparison of hemodialysis with medium cut-off dialyzer and on-line hemodiafiltr
 - 2026-04-11 19:30:10: LLM API Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
 - 2026-04-11 19:30:11: Wikifying orphan: Effects of Phosphate Binders in Moderate CKD
+- 2026-04-11 19:40:11: LLM API Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+- 2026-04-11 19:40:11: Wikifying orphan: Getting the basics right: the monitoring of arteriovenous fistulae, a review of 
