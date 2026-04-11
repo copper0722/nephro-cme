@@ -3408,3 +3408,5 @@
 - 2026-04-11 21:32:20: Worker cycle completed successfully.
 - 2026-04-11 22:00:04: Running orphan scan...
 - 2026-04-11 22:00:14: Wikifying orphan: Current Management of Hyperkalemia in Patients on Dialysis
+- 2026-04-11 22:10:14: LLM API Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+- 2026-04-11 22:10:14: Wikifying orphan: Comparison of hemodialysis with medium cut-off dialyzer and on-line hemodiafiltr
