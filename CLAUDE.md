@@ -30,6 +30,61 @@ GitHub (public, 考生使用)
 
 **Vault → repo, NOT repo → vault.** Canonical wiki 是 upstream。This repo 是 downstream export。
 
+## TSN Board Exam — Official Designated Materials (2026-04-13)
+
+Source: TSN 腎臟專科醫師甄審規則 第三、四、五條 + 推薦書籍清單。
+
+### Designated Journals (Review articles only, **1-year window**)
+
+| Journal | Abbrev | OA | PubMed indexed |
+|---|---|---|---|
+| Kidney International | Kidney Int | hybrid | ✓ |
+| American Journal of Kidney Diseases | Am J Kidney Dis | hybrid | ✓ |
+| Journal of the American Society of Nephrology | J Am Soc Nephrol | subscription | ✓ |
+| Clinical Journal of the American Society of Nephrology | Clin J Am Soc Nephrol | subscription | ✓ |
+| Pediatric Nephrology | Pediatr Nephrol | hybrid | ✓ |
+| 台灣腎臟醫學會雜誌 (Acta Nephrologica) | Acta Nephrol | likely full_oa | partial (TSN-published) |
+
+**Article-type filter**: review articles only. Not original research, case reports, editorials.
+**Date window**: rolling 1 year before exam date.
+- 115 年甄試 window: 2025-07-01 to 2026-06-30
+- 116 年甄試 window: 2026-07-01 to 2027-06-30
+- 117 年 / 118 年 etc.: shift +1 year each.
+
+### Designated Textbooks
+
+**115 年 甄試**:
+1. **Brenner & Rector's The Kidney, 11e (2020)** ← NOT 12e (2026); exam recognises 11e only this year
+2. **Principles and Practice of Dialysis** (Henrich), 5e 2017
+3. **Pediatric Nephrology** (Avner / Harmon / Niaudet), 7e 2016 [小兒科]
+
+**116 年 甄試**:
+1. **Brenner & Rector's The Kidney, 11e (2020)** ← Still 11e (TSN slow to update)
+2. **Handbook of Dialysis Therapy** (Nissenson / Fine), 6e 2023 ← Henrich Dialysis dropped, replaced
+3. **Pediatric Nephrology** (Emma / Goldstein / Bagga / Bates), 8e 2022 [小兒科]
+
+**Critical note on Brenner edition**: vault has 11e archived (`ref/books/_archive/2020_BrennerKidney_11e.zip`) and 12e (2026) as canonical. **For TSN exam, 11e is the authoritative version** — must un-archive 11e for exam study. 12e content may differ on guideline updates (e.g., KDIGO 2024 CKD).
+
+### Exam Structure
+
+- Part A: 傳統考題 (textbook + classic concepts)
+- Part B: 臨床考題 (case-based)
+- 口試 (oral)
+- 筆試通過、口試未過 → 筆試 3 年保留，下次只考口試
+
+### Eligibility (摘要)
+
+- 內/兒科專科醫師 + 腎臟訓練 ≥ 2 年
+- 腎臟繼續教育積分 ≥ 150 單位（A 類 ≥ 125）
+- ≥ 1 篇第一作者腎臟論文（台腎雜誌 / SCI / 學會討論會）
+- 若海外腎專（美/日/歐/加/南非/澳/紐/星/港）→ 免訓練要求
+
+### Application to wiki coverage
+
+- Wiki 涵蓋 8 sections（見下方 Scope）— 對應 Brenner 11e 章節 + Nissenson Ch / Henrich Ch
+- 每月掃 6 本指定 journal review articles → wikify within window
+- 1-year rolling window 重要：超過窗口的 review 雖然可參考但不會出題
+
 ## Source Hierarchy — Textbook First (Law, 2026-04-12)
 
 **All textbooks are highly trusted sources for wiki.** For nephro-wiki specifically, nephrology textbooks are the primary source.
