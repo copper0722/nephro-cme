@@ -7,7 +7,7 @@ TSN 腎臟專科醫師甄審筆試 + 口試準備資源。以多個 LLM（Claude
 | 區塊 | 內容 | 適合誰讀 |
 |---|---|---|
 | [`/note/`](./note) | 指定教科書**每章筆記** + 指定期刊**每篇 review 筆記**（zh-TW） | 考生 |
-| [`/wiki/`](./wiki) | LLM 友善的 M2M 英文知識索引（CC agent 消化用） | AI、進階使用者 |
+| [`/cc-wiki/`](./wiki) | LLM 友善的 M2M 英文知識索引（CC agent 消化用） | AI、進階使用者 |
 | [`/cme/`](./cme) | TSN 5-選項題庫 + rationale | 考生刷題 |
 
 **Slides** 在另一 repo [`copper0722/nephro-board-review`](https://github.com/copper0722/nephro-board-review) — 整理所有腎臟教科書的 teaching slides，與本 repo 互補。
