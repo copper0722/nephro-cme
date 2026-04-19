@@ -6,15 +6,16 @@ GitHub: `copper0722/nephro-cme` (public)
 
 TSN 腎臟專科甄試考試導向的複習專區。Vault canonical wiki 的**考試特化投影**。
 
-## Repo 3-Zone Structure (2026-04-13)
+## Repo 4-Zone Structure (2026-04-19 updated)
 
 | Zone | 路徑 | 語言 | 目標讀者 | 內容 |
 |---|---|---|---|---|
-| **1. note** | `/note/` | zh-TW | 人類考生 + Copper | 指定教科書**每章節筆記** + 指定期刊**每篇 review article 筆記**。考試導向、讀得懂。 |
-| **2. wiki** | `/cc-wiki/` | M2M English | CC agents | 跨 topic 整合、因果框架、EBM 細節。CC 讀取、不給人直接讀。 |
+| **1. note** | `/note/` | zh-TW | 人類考生 + Copper | 指定教科書**每章節筆記** + 指定期刊**每篇 review article 筆記**。**Source of truth**。|
+| **2. slides** | `/slides/{book}/` | zh-TW | 考生 + Copper | Marp 投影片，從 note `## TEACHING SLIDES` section 抽取。2026-04-19 從 textbook-notes 遷入（含全部腎臟教科書）。|
 | **3. cme** | `/cme/` | zh-TW | 考生 | TSN 5-選項格式題庫、每章末題目、自製題。|
+| **4. nephrology-cme-wiki** | `/nephrology-cme-wiki/` | M2M English | CC agents | **嚴格規則**（2026-04-19）：**所有內容必須由 `/note/` 衍生，不手改**。由 `nephrology-cme-wiki-gen.py` 覆蓋式產出，hand-edit 下次被蓋掉。Deferred 至 note ≥30 再啟動。舊 `/cc-wiki/` 2026-04-19 rename。|
 
-Slides 走另一 repo `copper0722/textbook-notes`（general textbook slideshare，非考試專屬）— nephro-cme 只做 note/cc-wiki/cme，有需要 slide 就 cross-link。
+Cross-refs: `textbook-notes` repo 於 2026-04-19 rescope 成「非腎臟 textbook slides」。
 
 ## Content Scope (Inflow Sources)
 
