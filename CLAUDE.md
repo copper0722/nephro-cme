@@ -36,8 +36,15 @@ Cross-refs: `textbook-notes` repo 於 2026-04-19 rescope 成「非腎臟 textboo
    - 每題一檔 TSN 5-選項格式 + rationale
    - 來源：考古題 recall、章末題、自製
 
-4. **Vault canonical wiki 投影** → `/cc-wiki/`
-   - 由 vault `proj/cc-wiki/` filter→ exam-relevant topics → export 到此 repo
+4. **Wiki synthesis** → `/nephrology-cme-wiki/` (strict rule, 2026-04-19)
+   - 由 `/note/` 中 `publish: true + publish_to: nephro-cme` 的 notes，按 `wiki_topic:` aggregate，script overwrite-style 產出
+   - 非 independent write、non-editable；要改 wiki → 改 source note
+   - Deferred 至 `/note/` ≥30 才啟動 synthesizer
+   - 2026-04-19 前內容已 archive 至 `_archive/nephrology-wiki-pre-strict-rule-2026-04-19.zip` (vault-side)
+
+5. **Teaching slides** → `/slides/{book}/` (2026-04-19 new zone, migrated from textbook-notes)
+   - 由 `/note/` 中 `publish: true + publish_to: nephro-cme` 的 notes，抽取 `## TEACHING SLIDES` section → Marp .md + GH Actions render .html
+   - 2026-04-19 初始遷入 39 個 Daugirdas 6e 章節 slides
 
 ## Source Hierarchy — Textbook First (Law, 2026-04-12)
 
@@ -58,7 +65,8 @@ Sources (textbooks, reviews, guidelines)
 Vault canonical wiki (wiki/)
   ↓ filter: exam-relevant topics only
   ↓ reformat: key facts + 考題邏輯 (not full EBM appraisal)
-This repo (repos/nephro-cme/cc-wiki/)
+This repo (repos/nephro-cme/nephrology-cme-wiki/ + note/ + slides/ + cme/)
+  ↓ textbook-share-sync.py (launchd) + repos-auto-push.sh (cron 10min)
   ↓ git push
 GitHub (public, 考生使用)
 ```
