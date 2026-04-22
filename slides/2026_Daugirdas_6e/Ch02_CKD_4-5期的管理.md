@@ -20,7 +20,7 @@ style: |
 
 ---
 
-## Key Takeaways (1/2)
+## Key Takeaways (1/3)
 - CKD 進入第 4 期（eGFR < 30 mL/min/1.73 m²）應由腎臟科接手，納入多專科 predialysis program；模式（移植、居家/院內 HD、PD、保守治療）選擇應於第 4 期即展開，而非拖到第 5 期才討論
 - 優先選項排序：preemptive transplantation > home HD / nocturnal HD（FHN RCT：LVH、BP、phosphate 較佳；GRADE **Moderate**）> in-center HD ≈ PD（存活率相當為觀察性資料；GRADE **Low**，依病人偏好選擇）> 保守治療
 - 透析起始時機：**症狀驅動（uremic syndrome、難治併發症）優於單純依 eGFR 數值**。成人常於 eGFR ≈ 8 mL/min/1.73 m² 啟動，但評估應於 10–12 mL/min/1.73 m² 即開始；IDEAL trial（GRADE **High** for mortality）證實早期（10–14）vs 晚期（5–7）無存活差異 → 反對提前起始
@@ -28,11 +28,15 @@ style: |
 
 ---
 
-## Key Takeaways (2/2)
+## Key Takeaways (2/3)
 - 急診透析指徵（Table 2.3）：uremic pericarditis、encephalopathy（asterixis）、bleeding diathesis、refractory volume overload / K⁺ / acidosis / phosphate / anemia、無法解釋的功能退化或營養惡化
 - Incremental HD（2 次/週起始）在殘餘尿量 > 600 mL/d 且 residual urea clearance > 3.0 mL/min/1.73 m² 時，與 3 次/週死亡率相當（Obi 2016 GRADE **Very low**；Caton 2023 meta-analysis GRADE **Low**）；台灣 NHI 目前制度不利於 incremental 排程
 - 保守治療（conservative care）在台灣實際執行受限：家屬壓力、健保全額給付透析、緩和醫療網絡不足 → 本章「palliative care as alternative」的建議須在地化修正
 - 台灣 pre-ESRD 制度：健保 **Pre-ESRD 照護計畫**（P0402C 初期 CKD、**P0403C Pre-ESRD**）+ **腎臟健康促進機構（HPP，照護網）**涵蓋 eGFR < 45 mL/min/1.73 m² 病人 → 衛教、營養、血管通路前置準備；實務上仍有大量病人於 uremic crash 時才進入體系
+
+---
+
+## Key Takeaways (3/3)
 - 早期/晚期透析的觀察性研究多受 **lead-time bias**（早起始者 ESKD 計時起點提前）+ **immortal time bias**（必須存活到 eGFR 門檻才能被納入 early arm）+ **competing risk of death before RRT** 污染；IDEAL RCT 為少數能部份化解者，但其 late arm crossover 嚴重 → per-protocol vs. ITT 結論可能分歧
 
 ---
