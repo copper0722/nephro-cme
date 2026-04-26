@@ -26,7 +26,7 @@ Triggered by Copper directive 2026-04-26: nephro-cme requires per-option textboo
 
 | textbook | edition | status | gap |
 |---|---|---|---|
-| Brenner & Rector's The Kidney | 12e (2026) | 3/~70 chapters wikified | ~67 chapters |
+| Brenner & Rector's The Kidney | 12e (2026) | Phase-1 split complete 2026-04-26 (84 chapter PDFs in sidecar; 0 raw.md / 0 wikified — old 3 chapters archived as superseded) | full book (Phase 2 MinerU pending) |
 | Nissenson & Fine Handbook of Dialysis Therapy | 6e (2023) | 0 wikified | full book (116 年指定) |
 | Daugirdas Handbook of Dialysis | 6e | 39 slides synced (note/textbook-notes/), 0 wiki | full wiki layer |
 | Emma Pediatric Nephrology | 8e (2022) | 0 wikified | full book (兒科) |
@@ -34,7 +34,8 @@ Triggered by Copper directive 2026-04-26: nephro-cme requires per-option textboo
 
 ## Source PDF inventory (verified 2026-04-26)
 
-- **Brenner 12e**: 304MB 2-volume PDF at `~/Library/CloudStorage/Dropbox/VaultBinary_Backup/proj/medical-note/_archive/Brenner & Rector's The Kidney 2-volume set...pdf` (Jan 2025 mtime). Single mega-PDF; needs per-chapter split.
+- **Brenner 12e (CANONICAL 2026-04-26)**: 102 MB authoritative 2-volume PDF (ISBN 9780443106415 + 9780443381775) staged at `~/VaultBinary/_sidecar/BrennerRector12e/source.pdf` (SHA256 `e46bdc01be7226ea06141f7fe051df85eb862ee7707e328a7fd07d611179591c`). 84 chapter PDFs split via qpdf at `~/VaultBinary/_sidecar/BrennerRector12e/chapters/`. Manifest: `metadata.json`. Zotero: RX5HV63C.
+- **Brenner 12e (SUPERSEDED)**: 304MB 2-volume PDF at `~/Library/CloudStorage/Dropbox/VaultBinary_Backup/proj/medical-note/_archive/Brenner & Rector's The Kidney 2-volume set...pdf` (Jan 2025 mtime). Lower-quality earlier source; retained for history only.
 - **Brenner 11e**: archived zip at `~/Library/CloudStorage/Dropbox/VaultBinary_Backup/raw/books/_archive/2020_BrennerKidney_11e.zip`.
 - **Nissenson 6e / Daugirdas 6e / Emma 8e**: PDF location TBD (Copper to provide; not located in vault search 2026-04-26).
 
