@@ -44,7 +44,7 @@ def split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
 
 
 def source_files() -> list[Path]:
-    excluded_names = {"README.md", "CLAUDE.md"}
+    excluded_names = {"README.md", "CLAUDE.md", "AGENTS.md"}
     files: list[Path] = []
     for path in sorted(CME_DIR.rglob("*.md")):
         if path.name in excluded_names or path.name.startswith("_template"):

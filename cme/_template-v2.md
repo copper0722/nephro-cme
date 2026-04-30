@@ -1,94 +1,57 @@
 ---
 schema_version: 2
-id: <citationKey>          # e.g. tsn2024-q03 / nephsap-vol22-no1-q12 / brenner12e-ch19-q4
-source_kind: <recall|nephsap|brenner|nissenson|harrison|daugirdas|self|other>
-source_path: <vault path of authoritative source>
+id: <stable-question-id>
+source_kind: <self|oa_review|guideline|public_domain|other>
+source_ref: <public citation or DOI, no private path>
 source_year: <YYYY>
-license_class: <oa_full_reuse|oa_derivative_ok|fair_use_citation_only|private_only|blocked_unknown>
-public_safety: <verbatim|paraphrased|rewritten>   # public-publishable iff in {paraphrased, rewritten} AND license allows
-review_state: <draft|opus_review|copper_approved|published>
-topic_tags: [<_s/im/nephrology/...>, ...]
-brenner_topic: <slug>      # topic-slug, e.g. ckd-risk-prediction. Resolver picks latest-edition wiki via brenner_topic_index. Chapter numbers shift across editions; topic persists.
-brenner_topic_secondary: [<slug>, ...]    # other Brenner topics touching same Q (optional)
-guideline_refs: [KDIGO-CKD-2024, KDOQI-..., ...]    # optional
+license_class: <oa_full_reuse|oa_derivative_ok|fair_use_citation_only|blocked_unknown>
+public_safety: <paraphrased|rewritten>
+review_state: <draft|reviewed|published>
+topic_tags: [nephrology]
 difficulty: <recall|application|analysis>
 bloom: <remember|understand|apply|analyze|evaluate>
 answer: <A|B|C|D>
 date: <YYYY-MM-DD>
-author: <opus|codex|gemma|copper>
+author: <human|agent>
 ---
 
 # <Q-title in zh-TW>
 
 ## Stem
 
-> <Stem prose, zh-TW. No source attribution, no exam-year markers, vignette fictionalized.>
+> <Original or sufficiently rewritten zh-TW stem. No patient-identifiable data, no exam-year marker, no proprietary wording.>
 
 ## Options
 
-### A. <Option A text>
+A. <Option A>  
+B. <Option B>  
+C. <Option C>  
+D. <Option D>
 
-**Status**: ✅ Correct  /  ❌ Incorrect
+## Answer
 
-**Why** (textbook-anchored, ≤6 lines):
-> <Explain by citing Brenner 12e Ch{NN} §{section title}, page/figure/table ref. State the medical reason this option is right or wrong. Keep evidence-tight; no speculation.>
+Correct answer: <A|B|C|D>
 
-**Sources**:
-- Brenner 12e Ch{NN} (`medwiki/.../brenner12e_chNN_<topic>.md` §{section})
-- KDIGO 2024 CKD §{recommendation number} (if applicable)
-- Other landmark trials only if pivotal (NEJM/JAMA/Lancet/KI/JASN with author + year + N)
+## Explanation
 
-### B. <Option B text>
+<Concise explanation in zh-TW with medical terminology. Cite public guideline, OA article, or bibliographic source as appropriate. Do not quote paywalled/textbook prose.>
 
-**Status**: ✅ Correct  /  ❌ Incorrect
+## Distractor Analysis
 
-**Why**:
-> <Same structure as A.>
+- A:
+- B:
+- C:
+- D:
 
-**Sources**:
-- ...
+## Sources
 
-### C. <Option C text>
+- <Public citation / DOI / guideline URL>
 
-**Status**: ✅ Correct  /  ❌ Incorrect
+## Build Rules
 
-**Why**:
-> <Same.>
+- Four options only: A-D.
+- Single best answer.
+- No copied board questions, proprietary self-assessment stems, textbook excerpts, patient data, or paywalled article text.
+- If the source is not open-license, publish only original educational wording plus bibliographic citation.
+- Delete this `Build Rules` section before publishing a final question.
 
-**Sources**:
-- ...
-
-### D. <Option D text>
-
-**Status**: ✅ Correct  /  ❌ Incorrect
-
-**Why**:
-> <Same.>
-
-**Sources**:
-- ...
-
-## Distractor logic
-
-<Concise 2-3 lines: why each wrong option is plausibly chosen but wrong. Test-taker training perspective. Optional if option-level Why blocks already cover this.>
-
-## Cross-links
-
-- Wiki topic: `medwiki/clinical_medicine/internal_medicine/nephrology/<topic>/...`
-- Related Q: `cme/bank/<source>/<id>.md` (id-only, not full path)
-- Source raw: `medwiki-raw/clinical_medicine/internal_medicine/nephrology/<key>.md` (private if license restricts)
-
----
-
-## Build rules (delete this whole `## Build rules` section before publishing)
-
-1. **Format invariant**: 4 選項 (A-D) only. Single best answer. Stem in zh-TW; technical tokens inline English.
-2. **Q-as-entity**: every option carries its own textbook-anchored Why block. Wiki content is option-level, not topic-monolithic.
-3. **Public-safety**: NO verbatim NephSAP / Brenner / 學長姐 stems. Vignettes rewritten (age/sex/lab values changed; medical logic preserved). No exam-year attribution. No author (林家宏/匿名/etc.).
-4. **Source citation**: every Why block must point at a wiki section that itself points back to verbatim raw.md. Three-hop traceability.
-5. **Brenner ref required (topic-based)**: every Q must declare a primary `brenner_topic` slug. Resolver auto-picks latest-edition chapter via `brenner_topic_index` PG table — survives 12e→13e transition without per-Q rewrite. If no Brenner topic applies, escalate to Copper before publish (Q tests outside Brenner scope — likely Nissenson/Daugirdas/Emma/guideline-only).
-6. **License gate**: `license_class` controls publish path. `private_only` → never publish; stay in private layer. `fair_use_citation_only` → paraphrase + cite, no verbatim quotes >2 sentences. `oa_*` → reuse OK with attribution.
-7. **One Q = one .md file** under `cme/bank/{source}/{id}.md`. Aggregated module files (`cme/nephrology-{topic}.md`) deprecated; module = view filter on the bank, not a file.
-8. **No copied figure**: image-dependent Qs must rebuild diagrams as Mermaid/SVG, OR cite the figure ref in Brenner without embedding the original image.
-9. **CR/LF**: LF only. UTF-8 no BOM.
-10. **Indexing**: `scripts/build_cme_index.py` reads frontmatter and writes `cme/index.json` for the SPA.

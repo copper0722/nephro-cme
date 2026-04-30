@@ -67,7 +67,7 @@ def split_frontmatter(text: str) -> tuple[dict[str, Any], str, int]:
 
 
 def default_files() -> list[Path]:
-    excluded_names = {"README.md", "CLAUDE.md"}
+    excluded_names = {"README.md", "CLAUDE.md", "AGENTS.md"}
     files: list[Path] = []
     for path in sorted(CME_DIR.rglob("*.md")):
         if path.name in excluded_names:

@@ -1,6 +1,6 @@
-# nephrology-wiki/cme — CME question bank card
+# nephro-cme/cme - CME question bank card
 
-GitHub repo: `copper0722/nephrology-wiki` (public)
+GitHub repo: `copper0722/nephro-cme` (public)
 
 ## Purpose
 
@@ -17,7 +17,7 @@ Build a public-safe CME layer on top of `wiki/` for TSN board prep:
 | `cme/_template-v2.md` | canonical v2 template for one-Q-per-file bank entries |
 | `cme/_template.md` | deprecated legacy redirect to v2 |
 | `cme/nephrology-<topic>-<focus>.md` | reusable CME module, one topic per file |
-| `cme/CLAUDE.md` | protocol card for all authors |
+| `cme/AGENTS.md` | protocol card for all authors |
 
 ## Naming Convention
 
@@ -86,13 +86,13 @@ Rule: modules should usually mix levels. Default target for 10 questions = `4 re
 
 Explanation must do three things:
 1. State why the keyed answer is best.
-2. Cite the exact wiki file with relative path and source section title.
+2. Cite the exact public source file with relative path and source section title.
 3. Explain why each distractor is wrong, not merely why the correct answer is right.
 
 Preferred citation style:
 
 ```md
-Source: [../wiki/wiki_nephrology_ckd_part1.md](../wiki/wiki_nephrology_ckd_part1.md)
+Source: [../nephrology-cme-wiki/wiki_nephrology_ckd_part1.md](../nephrology-cme-wiki/wiki_nephrology_ckd_part1.md)
 Section: "Uses of GFR and Albuminuria Level in Acute and Chronic Kidney Disease (2022)"
 ```
 

@@ -8,6 +8,11 @@ wiki_source:
 author: "Codex (GPT-5.4)"
 date: 2026-04-08
 question_count: 10
+source_kind: self
+license_class: fair_use_citation_only
+public_safety: rewritten
+review_state: published
+brenner_topic: ckd-staging-risk
 ---
 
 # CKD 分期與風險分層
@@ -29,8 +34,7 @@ Bloom: recall
 A. eGFR 68 mL/min/1.73 m²、UACR 20 mg/g，持續 6 個月  
 B. eGFR 58 mL/min/1.73 m²、UACR 10 mg/g，持續 4 個月  
 C. eGFR 92 mL/min/1.73 m²、UACR 25 mg/g，持續 5 個月  
-D. eGFR 75 mL/min/1.73 m²、UACR 12 mg/g，急性腸胃炎後 2 週  
-E. eGFR 61 mL/min/1.73 m²、UACR 28 mg/g，持續 1 年
+D. eGFR 75 mL/min/1.73 m²、UACR 12 mg/g，急性腸胃炎後 2 週
 
 ### 答案
 
@@ -47,7 +51,6 @@ Source： [../wiki/wiki_nephrology_ckd_part1.md](../wiki/wiki_nephrology_ckd_par
 - A：eGFR 仍大於等於 60，UACR 也未超過 30 mg/g，沒有達到 wiki 提示的 CKD threshold。
 - C：eGFR 正常，UACR 25 mg/g 也未達 A2 門檻，因此不能用 albuminuria 定義 CKD。
 - D：雖然是腎臟相關情境，但只有 2 週，較像 acute change，沒有滿足 CKD 的時間條件。
-- E：eGFR 61 與 UACR 28 都在門檻上方或下方邊緣，但未跨過 `GFR <60` 或 `ACR >30` 的 cutpoint。
 
 ## 題目 2
 
@@ -62,8 +65,7 @@ Bloom: recall
 A. A1  
 B. A2  
 C. A3  
-D. G2  
-E. G3a
+D. G2
 
 ### 答案
 
@@ -80,7 +82,6 @@ Source： [../wiki/wiki_nephrology_ckd_part1.md](../wiki/wiki_nephrology_ckd_par
 - A：A1 是正常到輕度增加的白蛋白尿，通常是 UACR <30 mg/g，不符合 120 mg/g。
 - C：A3 代表嚴重增加的白蛋白尿，通常是 UACR >300 mg/g，120 mg/g 還不到這個範圍。
 - D：G2 是 GFR category，不是 albuminuria category，分類軸錯了。
-- E：G3a 同樣是 GFR category，不是拿來描述 UACR 的分類。
 
 ## 題目 3
 
@@ -95,8 +96,7 @@ Bloom: recall
 A. G2  
 B. G3a  
 C. G3b  
-D. G4  
-E. G5
+D. G4
 
 ### 答案
 
@@ -113,7 +113,6 @@ Source： [../wiki/wiki_nephrology_ckd_part1.md](../wiki/wiki_nephrology_ckd_par
 - A：G2 是 eGFR 60-89，不符合 22。
 - B：G3a 是 eGFR 45-59，不符合 22。
 - C：G3b 是 eGFR 30-44，不符合 22。
-- E：G5 是 eGFR <15；22 尚未低到 G5。
 
 ## 題目 4
 
@@ -128,8 +127,7 @@ Bloom: recall
 A. CKD-EPI 2021 仍以 race coefficient 為必要組成  
 B. eGFRcr-cys 的準確度通常低於 eGFRcr  
 C. eGFRcr 可作為初始估算，若需要確認可用 eGFRcys 或 eGFRcr-cys  
-D. cystatin C 不應用於 CKD staging  
-E. Cockcroft-Gault 是所有病人的首選 confirmatory equation
+D. cystatin C 不應用於 CKD staging
 
 ### 答案
 
@@ -146,7 +144,6 @@ Source： [../wiki/wiki_nephrology_ckd_part1.md](../wiki/wiki_nephrology_ckd_par
 - A：2021 版重點就是拿掉 race coefficient，不是保留。
 - B：wiki 指出 creatinine-cystatin C combined equation 更準，不是更差。
 - D：cystatin C 正是 confirmatory approach 的重要工具，不能說完全不應使用。
-- E：Cockcroft-Gault 在部分藥物劑量情境仍可見，但不是 wiki 這裡主張的首選 confirmatory equation。
 
 ## 題目 5
 
@@ -161,8 +158,7 @@ Bloom: application
 A. CKD G2A1，低風險  
 B. CKD G3aA2，高風險  
 C. CKD G3aA3，非常高風險  
-D. CKD G3bA3，非常高風險  
-E. CKD G4A3，已等同腎衰竭需立即透析
+D. CKD G3bA3，非常高風險
 
 ### 答案
 
@@ -179,7 +175,6 @@ Source： [../wiki/wiki_nephrology_ckd_part1.md](../wiki/wiki_nephrology_ckd_par
 - A：eGFR 52 不是 G2，UACR 420 也遠高於 A1。
 - B：eGFR 分類對，但 UACR 420 已進入 A3，不是 A2。
 - D：UACR 分類對，但 eGFR 52 是 G3a，不是 G3b。
-- E：G4 需要 eGFR 15-29；而且「需要立即透析」不能只靠分期決定，wiki 也提醒透析時機不能只靠 eGFR cutoff。
 
 ## 題目 6
 
@@ -194,8 +189,7 @@ Bloom: application
 A. 不算 CKD，因為 eGFR 正常  
 B. CKD G1A1  
 C. CKD G1A2  
-D. CKD G2A2  
-E. 只能算 AKI，不能算 CKD
+D. CKD G2A2
 
 ### 答案
 
@@ -212,7 +206,6 @@ Source： [../wiki/wiki_nephrology_ckd_part1.md](../wiki/wiki_nephrology_ckd_par
 - A：正常 eGFR 不等於沒有 CKD；持續性白蛋白尿本身就是 CKD marker。
 - B：G1 正確，但 UACR 180 屬於 A2，不是 A1。
 - D：A2 正確，但 eGFR 96 應分在 G1，不是 G2。
-- E：AKI 重點是急性變化；這題是持續 4 個月，符合 chronicity。
 
 ## 題目 7
 
@@ -227,8 +220,7 @@ Bloom: application
 A. 補回 race coefficient 後重新計算 eGFR  
 B. 使用 cystatin C 或 creatinine-cystatin C combined equation 做確認  
 C. 因為 eGFR 大於 60，所以直接排除 CKD  
-D. 只看 UACR，不需再評估 GFR  
-E. 直接依 Cockcroft-Gault 決定是否開始透析
+D. 只看 UACR，不需再評估 GFR
 
 ### 答案
 
@@ -245,7 +237,6 @@ Source： [../wiki/wiki_nephrology_ckd_part1.md](../wiki/wiki_nephrology_ckd_par
 - A：2021 方向是移除 race coefficient，不是補回去。
 - C：UACR 已超過 30 mg/g，仍要考慮 CKD；而且 borderline creatinine eGFR 還需要 confirmatory testing。
 - D：albuminuria 很重要，但 staging 是 CGA，不是只看 A 不看 G。
-- E：透析決策不能靠這種單一步驟公式直接判定，和本題的 confirmatory staging 問題也不相符。
 
 ## 題目 8
 
@@ -260,8 +251,7 @@ Bloom: application
 A. 低 bicarbonate 加上重度白蛋白尿，都支持較高 progression risk  
 B. 停用 RAAS inhibitor 後，ESRD 風險通常會下降  
 C. 一旦 eGFR <45，albuminuria 就不再有預後價值  
-D. 只有 serum creatinine 對預後有用，酸中毒與白蛋白尿都不重要  
-E. bicarbonate 20 mmol/L 表示 CKD 分期一定是 G5
+D. 只有 serum creatinine 對預後有用，酸中毒與白蛋白尿都不重要
 
 ### 答案
 
@@ -278,7 +268,6 @@ Source： [../wiki/wiki_nephrology_ckd_part1.md](../wiki/wiki_nephrology_ckd_par
 - B：對應 wiki 恰好相反，停用 RAAS inhibitor 與較差 outcome 有關，不是保護。
 - C：albuminuria 是 independent predictor，不會因 GFR 降到某一點就失去意義。
 - D：wiki 反覆強調不能只看 creatinine/eGFR，albuminuria 與 acid-base status 都和 prognosis 有關。
-- E：bicarbonate 20 是酸中毒風險訊號，不是 G category 的定義條件，更不能單獨推到 G5。
 
 ## 題目 9
 
@@ -297,8 +286,7 @@ Bloom: analysis
 A. 甲病人 eGFR 正常，所以一定是低風險  
 B. 只有乙病人算 CKD，因為甲病人 eGFR 仍正常  
 C. 兩人都符合 CKD，但不能只靠 GFR 判斷風險，因為 albuminuria 是獨立預後指標  
-D. 甲病人只能看 A category，乙病人只能看 G category，CGA 不適用  
-E. 兩人既然都算 CKD，風險就必然相同
+D. 甲病人只能看 A category，乙病人只能看 G category，CGA 不適用
 
 ### 答案
 
@@ -315,7 +303,6 @@ Source： [../wiki/wiki_nephrology_ckd_part1.md](../wiki/wiki_nephrology_ckd_par
 - A：正常 eGFR 不能把重度白蛋白尿洗掉；A3 本身就代表高風險訊號。
 - B：甲病人 UACR 720 mg/g，已遠超過 CKD 的 albuminuria threshold。
 - D：CGA 的目的就是整合 Cause、GFR、Albuminuria，不是把不同病人拆成只看單一欄位。
-- E：同樣是 CKD 不代表風險相同；heat map 的存在就是為了區分不同組合的風險層級。
 
 ## 題目 10
 
@@ -330,8 +317,7 @@ Bloom: analysis
 A. 不算 CKD，因為 creatinine-based eGFR 仍高於 60  
 B. 可合理視為 CKD G3aA2，且應重視 cystatin C / combined equation 的 confirmatory role  
 C. 應分為 CKD G1A3，因為 cystatin C 在糖尿病人都會低估 GFR  
-D. 只能算 AKD，因為白蛋白尿尚未超過 300 mg/g  
-E. 只要 cystatin C eGFR <50，就應立即開始透析
+D. 只能算 AKD，因為白蛋白尿尚未超過 300 mg/g
 
 ### 答案
 
@@ -348,4 +334,3 @@ Source： [../wiki/wiki_nephrology_ckd_part1.md](../wiki/wiki_nephrology_ckd_par
 - A：錯在只看 creatinine eGFR。wiki 已提醒 creatinine 是 initial estimate，不是所有情況下的 final truth。
 - C：UACR 120 是 A2 不是 A3；而且 wiki 並未支持「糖尿病病人 cystatin C 一律低估 GFR」這種絕對說法。
 - D：albuminuria >30 mg/g 就已足以支持 CKD marker，不需要等到 >300 mg/g 才算 CKD。
-- E：透析起始不能只用單一 eGFR cutpoint 決定，對應 wiki 的 IDEAL 與 guideline sections 都反對這種過度簡化。

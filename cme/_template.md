@@ -9,7 +9,7 @@ Current schema rule:
 - one question = one Markdown file under `cme/bank/{source}/{id}.md`
 - 4 options only (`A-D`)
 - single best answer
-- required frontmatter: `schema_version`, `id`, `source_kind`, `license_class`, `public_safety`, `review_state`, `topic_tags`, `brenner_topic`, `difficulty`, `bloom`, `answer`
-- each option carries its own textbook-anchored `Why` and `Sources` block
+- required frontmatter: `schema_version`, `id`, `source_kind`, `license_class`, `public_safety`, `review_state`, `topic_tags`, `difficulty`, `bloom`, `answer`
+- each option carries its own `Why` and public citation block
 
 Do not create new questions from this file.
