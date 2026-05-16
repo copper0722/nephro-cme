@@ -1,6 +1,6 @@
 # nephro-cme/cme - CME question bank card
 
-GitHub: `copper0722/nephro-cme` (public). Public-safe CME layer over `wiki/` for TSN board prep: wiki = source knowledge, cme = retrieval practice + exam-style reasoning. All items original — no copied exam stems, no patient identifiers, no paywall/textbook text, no private annotations.
+GitHub: `copper0722/nephro-cme` (public). **Status: legacy / no new writes** (Law L21 deprecated list). Card retained as spec for historical regeneration only; new CME authoring not dispatched here. Public-safe CME layer over `wiki/` for TSN board prep: wiki = source knowledge, cme = retrieval practice + exam-style reasoning. All items original — no copied exam stems, no patient identifiers, no paywall/textbook text, no private annotations.
 
 ## Folder layout
 
